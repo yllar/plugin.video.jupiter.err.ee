@@ -48,3 +48,11 @@ msgstr "Vaegkuuljad"
 msgctxt "#30006"
 msgid "Russian"
 msgstr "Vene"
+
+msgctxt "#30007"
+msgid "Edasijõudnud"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Luba piltide laadimine"
+msgstr ""

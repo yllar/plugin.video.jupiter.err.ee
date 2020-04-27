@@ -125,7 +125,8 @@ def get_category(category):
             if 'photoUrlOriginal' in content['verticalPhotos'][0]:
                 fanart = content['verticalPhotos'][0]['photoUrlOriginal']
             item = xbmcgui.ListItem(content["heading"])
-            item.setArt({'fanart': fanart, 'icon': fanart})
+            if 'true' in __settings__.getSetting('enableImages'):
+                item.setArt({'fanart': fanart, 'icon': fanart})
             item.setInfo(type="Video", infoLabels=info_labels)
             items.append((PATH + '?action=section&section={}&sub=false'.format(content["id"]), item, True))
     xbmcplugin.addDirectoryItems(_handle, items)
@@ -174,7 +175,8 @@ def get_section(section, sub=''):
                                 if 'photoUrlOriginal' in day['photos'][0]:
                                     fanart = day['photos'][0]['photoUrlOriginal']
                             item = xbmcgui.ListItem("  {}".format(title))
-                            item.setArt({'fanart': fanart, 'icon': fanart})
+                            if 'true' in __settings__.getSetting('enableImages'):
+                                item.setArt({'fanart': fanart, 'icon': fanart})
                             item.setInfo(type="Video", infoLabels=info_labels)
                             items.append((PATH + '?action=section&section={}&sub=false'.format(day['id']), item, True))
                     except KeyError:
@@ -195,7 +197,8 @@ def get_section(section, sub=''):
                         if 'photoUrlOriginal' in episood['photos'][0]:
                             fanart = episood['photos'][0]['photoUrlOriginal']
                         item = xbmcgui.ListItem(title)
-                        item.setArt({'fanart': fanart, 'icon': fanart})
+                        if 'true' in __settings__.getSetting('enableImages'):
+                            item.setArt({'fanart': fanart, 'icon': fanart})
                         items.append((PATH + '?action=section&section={}&sub=false'.format(episood['id']), item, True))
                 except:
                     pass
@@ -228,7 +231,8 @@ def get_section(section, sub=''):
         if 'photoUrlOriginal' in data['data']['mainContent']['photos'][0]:
             fanart = data['data']['mainContent']['photos'][0]['photoUrlOriginal']
         item = xbmcgui.ListItem(title, path=video)
-        item.setArt({'fanart': fanart, 'icon': fanart})
+        if 'true' in __settings__.getSetting('enableImages'):
+            item.setArt({'fanart': fanart, 'icon': fanart})
         item.setInfo(type="Video", infoLabels=info_labels)
         item.setProperty('IsPlayable', 'True')
         item.setProperty('isFolder', 'False')
@@ -252,7 +256,8 @@ def get_all_shows(type):
         item = xbmcgui.ListItem("{}".format(show['heading']))
         if 'photoUrlOriginal' in show['photos'][0]:
             fanart = show['photos'][0]['photoUrlOriginal']
-            item.setArt({'fanart': fanart, 'icon': fanart})
+            if 'true' in __settings__.getSetting('enableImages'):
+                item.setArt({'fanart': fanart, 'icon': fanart})
         items.append((PATH + '?action=section&section={}&sub=false'.format(show['id']), item, True))
     xbmcplugin.addDirectoryItems(_handle, items)
     xbmcplugin.endOfDirectory(_handle)

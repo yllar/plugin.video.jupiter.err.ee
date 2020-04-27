@@ -16,7 +16,11 @@
         <license>GPLv2</license>
         <platform>all</platform>
         <language>et</language>
-        <news>0.0.1 - esmane väljalase</news>
+        <news>
+- 0.0.2 - uus valik võimaldab keelata piltide laadimise (kasulik aeglastel seadmetel nagu näiteks RaspberryPi)
+
+- 0.0.1 - esmane väljalase
+        </news>
     <assets>
         <icon>resources/icon.png</icon>
         <fanart>resources/fanart.png</fanart>
