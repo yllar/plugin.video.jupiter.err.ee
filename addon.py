@@ -66,7 +66,7 @@ def listCategory():
     # create main menu. There is no good api that includes A-Ü, so let's do it manually for now
     # video
     item = xbmcgui.ListItem('[COLOR blue]Video[/COLOR]')
-    item.setArt({'fanart': FANART, 'icon': FANART})
+    item.setArt({'fanart': FANART, 'poster': FANART, 'icon': FANART})
     items.append((PATH + '?action=category&category={}'.format('saated'), item, False))
     item = xbmcgui.ListItem(' Saated')
     item.setArt({'fanart': FANART})
@@ -85,7 +85,7 @@ def listCategory():
     items.append((PATH + '?action=listing&category={}'.format('video'), item, True))
     # audio
     item = xbmcgui.ListItem('[COLOR blue]Audio[/COLOR]')
-    item.setArt({'fanart': FANART, 'icon': FANART})
+    item.setArt({'fanart': FANART, 'poster': FANART, 'icon': FANART})
     items.append((PATH + '?action=category&category={}'.format('audio'), item, False))
     item = xbmcgui.ListItem(' Saated')
     item.setArt({'fanart': FANART})
@@ -126,7 +126,7 @@ def get_category(category):
                 fanart = content['verticalPhotos'][0]['photoUrlOriginal']
             item = xbmcgui.ListItem(content["heading"])
             if 'true' in __settings__.getSetting('enableImages'):
-                item.setArt({'fanart': fanart, 'icon': fanart})
+                item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
             item.setInfo(type="Video", infoLabels=info_labels)
             items.append((PATH + '?action=section&section={}&sub=false'.format(content["id"]), item, True))
     xbmcplugin.addDirectoryItems(_handle, items)
@@ -153,7 +153,7 @@ def get_section(section, sub=''):
             if season_type == 'monthly':
                 for month in season['items']:
                     item = xbmcgui.ListItem(" [COLOR blue]{}[/COLOR]".format(month['name']))
-                    # item.setArt({'fanart': fanart, 'icon': fanart})
+                    # item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
                     items.append(
                         (PATH + '?action=section&section={}&sub=marine'.format(month['firstContentId']), item, True))
                     try:
@@ -176,7 +176,7 @@ def get_section(section, sub=''):
                                     fanart = day['photos'][0]['photoUrlOriginal']
                             item = xbmcgui.ListItem("  {}".format(title))
                             if 'true' in __settings__.getSetting('enableImages'):
-                                item.setArt({'fanart': fanart, 'icon': fanart})
+                                item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
                             item.setInfo(type="Video", infoLabels=info_labels)
                             items.append((PATH + '?action=section&section={}&sub=false'.format(day['id']), item, True))
                     except KeyError:
@@ -198,7 +198,7 @@ def get_section(section, sub=''):
                             fanart = episood['photos'][0]['photoUrlOriginal']
                         item = xbmcgui.ListItem(title)
                         if 'true' in __settings__.getSetting('enableImages'):
-                            item.setArt({'fanart': fanart, 'icon': fanart})
+                            item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
                         items.append((PATH + '?action=section&section={}&sub=false'.format(episood['id']), item, True))
                 except:
                     pass
@@ -232,7 +232,7 @@ def get_section(section, sub=''):
             fanart = data['data']['mainContent']['photos'][0]['photoUrlOriginal']
         item = xbmcgui.ListItem(title, path=video)
         if 'true' in __settings__.getSetting('enableImages'):
-            item.setArt({'fanart': fanart, 'icon': fanart})
+            item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
         item.setInfo(type="Video", infoLabels=info_labels)
         item.setProperty('IsPlayable', 'True')
         item.setProperty('isFolder', 'False')
@@ -257,7 +257,7 @@ def get_all_shows(type):
         if 'photoUrlOriginal' in show['photos'][0]:
             fanart = show['photos'][0]['photoUrlOriginal']
             if 'true' in __settings__.getSetting('enableImages'):
-                item.setArt({'fanart': fanart, 'icon': fanart})
+                item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
         items.append((PATH + '?action=section&section={}&sub=false'.format(show['id']), item, True))
     xbmcplugin.addDirectoryItems(_handle, items)
     xbmcplugin.endOfDirectory(_handle)
