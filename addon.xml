@@ -16,6 +16,8 @@
         <platform>all</platform>
         <language>et</language>
         <news>
+- 0.0.4 - Vene kino piltide leidmise parandus, koodipuhastus
+
 - 0.0.3 - lisandusid postrid, et lemmikute all oleks saate/sarja pilt näha.
           Pythoni sõltuvus eemaldatud, et saaks sama pluginat paigaldada nii Leia kui Matrix versioonile. Bugi #1
 

@@ -4,7 +4,6 @@ from __future__ import (absolute_import, division,
 import re
 import sys
 import json
-import locale
 from datetime import datetime
 
 try:
@@ -22,10 +21,7 @@ import xbmcaddon
 import xbmcplugin
 
 # import web_pdb
-try:
-    locale.setlocale(locale.LC_ALL, 'et_EE.UTF-8')
-except locale.Error:
-    locale.setlocale(locale.LC_ALL, 'C')
+
 
 API_VERSION = "v2"
 API_BASEURL = "https://services.err.ee/api/{}/".format(API_VERSION)
@@ -122,8 +118,16 @@ def get_category(category):
             if 'lead' in content:
                 plot = strip_tags(content['lead'])
             info_labels = {'title': content["heading"], 'plot': plot}
-            if 'photoUrlOriginal' in content['verticalPhotos'][0]:
-                fanart = content['verticalPhotos'][0]['photoUrlOriginal']
+            try:
+                if 'photoUrlOriginal' in content['verticalPhotos'][0]:
+                    fanart = content['verticalPhotos'][0]['photoUrlOriginal']
+            except KeyError:
+                try:
+                    if 'photoTypes' in content['photos'][0]:
+                        fanart = content['photos'][0]['photoTypes']['5']['url']
+                except KeyError:
+                    pass
+
             item = xbmcgui.ListItem(content["heading"])
             if 'true' in __settings__.getSetting('enableImages'):
                 item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
