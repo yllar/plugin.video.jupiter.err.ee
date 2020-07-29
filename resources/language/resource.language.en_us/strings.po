@@ -51,3 +51,75 @@ msgstr ""
 msgctxt "#30008"
 msgid "Enable loading of images"
 msgstr ""
+
+msgctxt "#30009"
+msgid "Category text colour"
+msgstr "Category text color"
+
+msgctxt "#30010"
+msgid "Season text colour"
+msgstr "Season text color"
+
+msgctxt "#30011"
+msgid "Unplayable text colour"
+msgstr "Unplayable text color"
+
+msgctxt "#30030"
+msgid "[COLOR white]White[/COLOR]"
+msgstr "[COLOR white]White[/COLOR]"
+
+msgctxt "#30031"
+msgid "[COLOR ivory]Ivory[/COLOR]"
+msgstr "[COLOR ivory]Ivory[/COLOR]"
+
+msgctxt "#30032"
+msgid "[COLOR silver]Silver[/COLOR]"
+msgstr "[COLOR silver]Silver[/COLOR]"
+
+msgctxt "#30033"
+msgid "[COLOR gray]Gray[/COLOR]"
+msgstr "[COLOR gray]Gray[/COLOR]"
+
+msgctxt "#30034"
+msgid "[COLOR limegreen]Lime green[/COLOR]"
+msgstr "[COLOR limegreen]Lime green[/COLOR]"
+
+msgctxt "#30035"
+msgid "[COLOR green]Green[/COLOR]"
+msgstr "[COLOR green]Green[/COLOR]"
+
+msgctxt "#30036"
+msgid "[COLOR lightblue]Light blue[/COLOR]"
+msgstr "[COLOR lightblue]Light blue[/COLOR]"
+
+msgctxt "#30037"
+msgid "[COLOR blue]Blue[/COLOR]"
+msgstr "[COLOR blue]Blue[/COLOR]"
+
+msgctxt "#30038"
+msgid "[COLOR deeppink]Pink[/COLOR]"
+msgstr "[COLOR deeppink]Pink[/COLOR]"
+
+msgctxt "#30039"
+msgid "[COLOR turquoise]Turquoise[/COLOR]"
+msgstr "[COLOR turquoise]Turquoise[/COLOR]"
+
+msgctxt "#30040"
+msgid "[COLOR gold]Gold[/COLOR]"
+msgstr "[COLOR gold]Gold[/COLOR]"
+
+msgctxt "#30041"
+msgid "[COLOR yellow]Yellow[/COLOR]"
+msgstr "[COLOR yellow]Yellow[/COLOR]"
+
+msgctxt "#30042"
+msgid "[COLOR brown]Brown[/COLOR]"
+msgstr "[COLOR brown]Brown[/COLOR]"
+
+msgctxt "#30043"
+msgid "[COLOR orange]Orange[/COLOR]"
+msgstr "[COLOR orange]Orange[/COLOR]"
+
+msgctxt "#30044"
+msgid "[COLOR red]Red[/COLOR]"
+msgstr "[COLOR red]Red[/COLOR]"

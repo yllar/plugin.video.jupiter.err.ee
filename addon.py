@@ -61,7 +61,7 @@ def listCategory():
     items = list()
     # create main menu. There is no good api that includes A-Ü, so let's do it manually for now
     # video
-    item = xbmcgui.ListItem('[COLOR blue]Video[/COLOR]')
+    item = xbmcgui.ListItem('[COLOR %s]Video[/COLOR]' % get_colour(__settings__.getSetting('colourCategory')))
     item.setArt({'fanart': FANART, 'poster': FANART, 'icon': FANART})
     items.append((PATH + '?action=category&category={}'.format('saated'), item, False))
     item = xbmcgui.ListItem(' Saated')
@@ -80,7 +80,7 @@ def listCategory():
     item.setArt({'fanart': FANART})
     items.append((PATH + '?action=listing&category={}'.format('video'), item, True))
     # audio
-    item = xbmcgui.ListItem('[COLOR blue]Audio[/COLOR]')
+    item = xbmcgui.ListItem('[COLOR %s]Audio[/COLOR]' % get_colour(__settings__.getSetting('colourCategory')))
     item.setArt({'fanart': FANART, 'poster': FANART, 'icon': FANART})
     items.append((PATH + '?action=category&category={}'.format('audio'), item, False))
     item = xbmcgui.ListItem(' Saated')
@@ -110,7 +110,7 @@ def get_category(category):
     # xbmc.log('Data: %s' % data, xbmc.LOGNOTICE)
     for header in data["data"]["category"]["frontPage"]:
         # xbmc.log('Header item: %s' % header["header"].encode('ascii', 'ignore'), xbmc.LOGNOTICE)
-        item = xbmcgui.ListItem("[COLOR blue]{}[/COLOR]".format(header['header']))
+        item = xbmcgui.ListItem("[COLOR {}]{}[/COLOR]".format(get_colour(__settings__.getSetting('colourCategory')), header['header']))
         items.append((PATH, item))
         for content in header["data"]:
             plot = ''
@@ -149,14 +149,14 @@ def get_section(section, sub=''):
         for season in data['data']['seasonList']['items']:
             try:
                 # Season
-                item = xbmcgui.ListItem("[COLOR yellow]Hooaeg: {}[/COLOR]".format(str(season['id'])))
+                item = xbmcgui.ListItem("[COLOR {}]Hooaeg: {}[/COLOR]".format(get_colour(__settings__.getSetting('colourSeason')),str(season['id'])))
                 items.append(
                     (PATH + '?action=section&section={}&sub=marine'.format(season['firstContentId']), item, True))
             except:
                 pass
             if season_type == 'monthly':
                 for month in season['items']:
-                    item = xbmcgui.ListItem(" [COLOR blue]{}[/COLOR]".format(month['name']))
+                    item = xbmcgui.ListItem(" [COLOR {}]{}[/COLOR]".format(get_colour(__settings__.getSetting('colourCategory')), month['name']))
                     # item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
                     items.append(
                         (PATH + '?action=section&section={}&sub=marine'.format(month['firstContentId']), item, True))
@@ -221,7 +221,7 @@ def get_section(section, sub=''):
         drm = data['data']['mainContent']['medias'][0]['restrictions']['drm']
         # we cannot play DRM content yet, so make it different
         if drm:
-            title = '[COLOR red][I]{}[/I][/COLOR]'.format(title)
+            title = '[COLOR {}][I]{}[/I][/COLOR]'.format(get_colour(__settings__.getSetting('colourUnplayable')),title)
         info_labels = {'title': title, 'plot': plot}
         try:
             for language in languages:
@@ -278,6 +278,25 @@ def get_subtitle_language(lang):
     else:
         pass
 
+def get_colour(color):
+    colours = {
+        0:'white',
+        1:'ivory',
+        2:'silver',
+        3:'gray',
+        4:'limegreen',
+        5:'green',
+        6:'lightblue',
+        7:'blue',
+        8:'deeppink',
+        9:'turquoise',
+        10:'gold',
+        11:'yellow',
+        12:'brown',
+        13:'orange',
+        14:'red'
+    }
+    return colours.get(int(color),'blue')
 
 def convert_timestamp(input):
     return datetime.fromtimestamp(int(input)).strftime('%Y-%m-%d %H:%M:%S')

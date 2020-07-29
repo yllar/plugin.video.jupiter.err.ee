@@ -50,9 +50,81 @@ msgid "Russian"
 msgstr "Vene"
 
 msgctxt "#30007"
-msgid "Edasijõudnud"
-msgstr ""
+msgid "Advanced"
+msgstr "Edasijõudnud"
 
 msgctxt "#30008"
-msgid "Luba piltide laadimine"
-msgstr ""
+msgid "Enable loading of images"
+msgstr "Luba piltide laadimine"
+
+msgctxt "#30009"
+msgid "Category text colour"
+msgstr "Kategooria teksti värv"
+
+msgctxt "#30010"
+msgid "Season text colour"
+msgstr "Hooaja teksti värv"
+
+msgctxt "#30011"
+msgid "Unplayable text colour"
+msgstr "Sisu pole saadaval värv"
+
+msgctxt "#30030"
+msgid "[COLOR white]White[/COLOR]"
+msgstr "[COLOR white]Valge[/COLOR]"
+
+msgctxt "#30031"
+msgid "[COLOR ivory]Ivory[/COLOR]"
+msgstr "[COLOR ivory]Elevandiluu[/COLOR]"
+
+msgctxt "#30032"
+msgid "[COLOR silver]Silver[/COLOR]"
+msgstr "[COLOR silver]Hõbedane[/COLOR]"
+
+msgctxt "#30033"
+msgid "[COLOR gray]Gray[/COLOR]"
+msgstr "[COLOR gray]Hall[/COLOR]"
+
+msgctxt "#30034"
+msgid "[COLOR limegreen]Lime green[/COLOR]"
+msgstr "[COLOR limegreen]Laimi roheline[/COLOR]"
+
+msgctxt "#30035"
+msgid "[COLOR green]Green[/COLOR]"
+msgstr "[COLOR green]Roheline[/COLOR]"
+
+msgctxt "#30036"
+msgid "[COLOR lightblue]Light blue[/COLOR]"
+msgstr "[COLOR lightblue]Helesinine[/COLOR]"
+
+msgctxt "#30037"
+msgid "[COLOR blue]Blue[/COLOR]"
+msgstr "[COLOR blue]Sinine[/COLOR]"
+
+msgctxt "#30038"
+msgid "[COLOR deeppink]Pink[/COLOR]"
+msgstr "[COLOR deeppink]Roosa[/COLOR]"
+
+msgctxt "#30039"
+msgid "[COLOR turquoise]Turquoise[/COLOR]"
+msgstr "[COLOR turquoise]Türkiis[/COLOR]"
+
+msgctxt "#30040"
+msgid "[COLOR gold]Gold[/COLOR]"
+msgstr "[COLOR gold]Kuldne[/COLOR]"
+
+msgctxt "#30041"
+msgid "[COLOR yellow]Yellow[/COLOR]"
+msgstr "[COLOR yellow]Kollane[/COLOR]"
+
+msgctxt "#30042"
+msgid "[COLOR brown]Brown[/COLOR]"
+msgstr "[COLOR brown]Pruun[/COLOR]"
+
+msgctxt "#30043"
+msgid "[COLOR orange]Orange[/COLOR]"
+msgstr "[COLOR orange]Oranž[/COLOR]"
+
+msgctxt "#30044"
+msgid "[COLOR red]Red[/COLOR]"
+msgstr "[COLOR red]Punane[/COLOR]"

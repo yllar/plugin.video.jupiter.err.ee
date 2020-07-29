@@ -7,5 +7,9 @@
 </category>
 <category label="30007">
 	<setting id="enableImages" type="bool" label="30008" default="true"/>
+	<setting type="sep"/>
+	<setting id="colourCategory" type="enum" label="30009" lvalues="30030|30031|30032|30033|30034|30035|30036|30037|30038|30039|30040|30041|30042|30043|30044" default="7"/>
+	<setting id="colourSeason" type="enum" label="30010" lvalues="30030|30031|30032|30033|30034|30035|30036|30037|30038|30039|30040|30041|30042|30043|30044" default="11"/>
+	<setting id="colourUnplayable" type="enum" label="30011" lvalues="30030|30031|30032|30033|30034|30035|30036|30037|30038|30039|30040|30041|30042|30043|30044" default="14"/>
 </category>
 </settings>
