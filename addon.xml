@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.jupiter.err.ee" version="0.0.5" name="Jupiter" provider-name="Üllar Pajus [yllar.pajus@gmail.com]">
     <requires>
+        <import addon="script.module.inputstreamhelper" version="0.5.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
