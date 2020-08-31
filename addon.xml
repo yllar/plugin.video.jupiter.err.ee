@@ -17,6 +17,8 @@
         <platform>all</platform>
         <language>et</language>
         <news>
+- 0.0.6 - DRMiga kaitstud sisu mängimine
+
 - 0.0.5 - Võimalus valida värve
 
 - 0.0.4 - Vene kino piltide leidmise parandus, koodipuhastus
