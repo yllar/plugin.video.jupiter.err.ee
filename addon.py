@@ -5,6 +5,7 @@ import re
 import sys
 import json
 from datetime import datetime
+import inputstreamhelper
 
 try:
     from urllib.parse import parse_qsl
@@ -36,6 +37,11 @@ FANART = 'https://s.err.ee/photo/crop/2020/03/30/765343had90t16.png'
 
 __settings__ = xbmcaddon.Addon(id='plugin.video.jupiter.err.ee')
 
+KODI_VERSION_MAJOR = int(xbmc.getInfoLabel('System.BuildVersion').split('.')[0])
+PROTOCOL = 'mpd'
+DRM = 'com.widevine.alpha'
+MIME_TYPE = 'application/dash+xml'
+is_helper = inputstreamhelper.Helper(PROTOCOL, drm=DRM)
 
 def download_url(url, header=None):
     for retries in range(0, 5):
@@ -219,9 +225,12 @@ def get_section(section, sub=''):
         video = data['data']['mainContent']['medias'][0]['src']['hls'].replace('//', 'http://', 1)
         plot = strip_tags(data['data']['mainContent']['body'])
         drm = data['data']['mainContent']['medias'][0]['restrictions']['drm']
-        # we cannot play DRM content yet, so make it different
+        # we can play DRM content
         if drm:
-            title = '[COLOR {}][I]{}[/I][/COLOR]'.format(get_colour(__settings__.getSetting('colourUnplayable')),title)
+            # title = '[COLOR {}][I]{}[/I][/COLOR]'.format(get_colour(__settings__.getSetting('colourUnplayable')),title)
+            token = data['data']['mainContent']['medias'][0]['jwt']
+            license_server = data['data']['mainContent']['medias'][0]['licenseServerUrl']['widevine']
+            video = data['data']['mainContent']['medias'][0]['src']['dash'].replace('//', 'https://', 1)
         info_labels = {'title': title, 'plot': plot}
         try:
             for language in languages:
@@ -240,6 +249,17 @@ def get_section(section, sub=''):
         item.setInfo(type="Video", infoLabels=info_labels)
         item.setProperty('IsPlayable', 'True')
         item.setProperty('isFolder', 'False')
+        if drm:
+            if is_helper.check_inputstream():
+               item.setContentLookup(False)
+               item.setMimeType(MIME_TYPE)
+               if KODI_VERSION_MAJOR >= 19:
+                item.setProperty('inputstream', is_helper.inputstream_addon)
+               else:
+                item.setProperty('inputstreamaddon', is_helper.inputstream_addon)
+               item.setProperty('inputstream.adaptive.manifest_type', PROTOCOL)
+               item.setProperty('inputstream.adaptive.license_type', DRM)
+               item.setProperty('inputstream.adaptive.license_key', license_server + '|X-AxDRM-Message='+token+'|R{SSM}|')     
         try:
             if sub:
                 item.setSubtitles(sub)
