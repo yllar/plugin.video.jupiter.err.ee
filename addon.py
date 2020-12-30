@@ -178,9 +178,9 @@ def get_section(section, sub=''):
                             plot = convert_timestamp(day['scheduleStart'])
                             info_labels = {'title': title, 'plot': plot}
                             # get photos if posible
-                            if 'verticalPhotos' in day:
-                                if 'photoUrlOriginal' in day['verticalPhotos'][0]:
-                                    fanart = day['verticalPhotos'][0]['photoUrlOriginal']
+                            if 'horizontalPhotos' in day:
+                                if 'photoUrlOriginal' in day['horizontalPhotos'][0]:
+                                    fanart = day['horizontalPhotos'][0]['photoUrlOriginal']
                             elif 'photos' in day:
                                 if 'photoUrlOriginal' in day['photos'][0]:
                                     fanart = day['photos'][0]['photoUrlOriginal']
@@ -189,14 +189,13 @@ def get_section(section, sub=''):
                                 item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
                             item.setInfo(type="Video", infoLabels=info_labels)
                             items.append((PATH + '?action=section&section={}&sub=false'.format(day['id']), item, True))
-                    except KeyError:
+                    except (KeyError, IndexError):
                         pass
             elif season_type in ('seasonal', 'shortSeriesList'):
                 try:
                     for episood in season['contents']:
                         # xbmc.log(' EpisoodiId: %s' % str(episood['id']), xbmc.LOGNOTICE)
                         fanart = ''
-                        # print("Episood: %s" % episood['episode'], episood['id'])
                         if 'subHeading' in episood and len(episood['subHeading']) > 2:
                             title = episood['subHeading']
                         elif 'heading' in episood:
