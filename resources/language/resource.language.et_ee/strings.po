@@ -69,6 +69,18 @@ msgctxt "#30011"
 msgid "Unplayable text colour"
 msgstr "Sisu pole saadaval värv"
 
+msgctxt "#30012"
+msgid "Search"
+msgstr "Otsing"
+
+msgctxt "#30013"
+msgid "Enter search term"
+msgstr "Sisesta otsingusõna"
+
+msgctxt "#30014"
+msgid "matches"
+msgstr "vasteid"
+
 msgctxt "#30030"
 msgid "[COLOR white]White[/COLOR]"
 msgstr "[COLOR white]Valge[/COLOR]"

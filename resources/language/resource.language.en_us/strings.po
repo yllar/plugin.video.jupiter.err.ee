@@ -64,6 +64,18 @@ msgctxt "#30011"
 msgid "Unplayable text colour"
 msgstr "Unplayable text color"
 
+msgctxt "#30012"
+msgid "Search"
+msgstr "Search"
+
+msgctxt "#30013"
+msgid "Enter search term"
+msgstr "Enter search term"
+
+msgctxt "#30014"
+msgid "matches"
+msgstr "matches"
+
 msgctxt "#30030"
 msgid "[COLOR white]White[/COLOR]"
 msgstr "[COLOR white]White[/COLOR]"

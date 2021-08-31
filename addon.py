@@ -1,19 +1,13 @@
 # coding: utf-8
 from __future__ import (absolute_import, division,
                         print_function, unicode_literals)
-import re
+import os
 import sys
-import json
-from datetime import datetime
 import inputstreamhelper
 
 try:
     from urllib.parse import parse_qsl
-    from urllib.request import Request as urllib_Request
-    from urllib.request import HTTPHandler, HTTPSHandler, urlopen, install_opener, build_opener
 except ImportError:
-    from urllib2 import Request as urllib_Request
-    from urllib2 import urlopen, install_opener, build_opener, HTTPError, HTTPSHandler, HTTPHandler
     from urlparse import parse_qsl
 
 import xbmc
@@ -21,12 +15,18 @@ import xbmcgui
 import xbmcaddon
 import xbmcplugin
 
+from resources.lib.errlib.menu import Menu
+import resources.lib.errlib.helpers as helpers
+from resources.lib.errlib.category import Category
+from resources.lib.errlib.content import Content
+from resources.lib.errlib.search import Search
+
+from resources.lib.errlib.constants import (
+    ERR_API_BASEURL,
+    ERR_API_VERSION
+)
+
 # import web_pdb
-
-
-API_VERSION = "v2"
-API_BASEURL = "https://services.err.ee/api/{}/".format(API_VERSION)
-UA = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1'
 
 # Get the plugin url in plugin:// notation.
 PATH = sys.argv[0]
@@ -36,212 +36,200 @@ _handle = int(sys.argv[1])
 FANART = 'https://s.err.ee/photo/crop/2020/03/30/765343had90t16.png'
 
 __settings__ = xbmcaddon.Addon(id='plugin.video.jupiter.err.ee')
-
+ADDON = xbmcaddon.Addon()
 KODI_VERSION_MAJOR = int(xbmc.getInfoLabel('System.BuildVersion').split('.')[0])
 PROTOCOL = 'mpd'
 DRM = 'com.widevine.alpha'
 MIME_TYPE = 'application/dash+xml'
 is_helper = inputstreamhelper.Helper(PROTOCOL, drm=DRM)
 
-def download_url(url, header=None):
-    for retries in range(0, 5):
-        try:
-            r = urllib_Request(url)
-            r.add_header('User-Agent', UA)
-            if header:
-                for h_key, h_value in header.items():
-                    r.add_header(h_key, h_value)
-            http_handler = HTTPHandler(debuglevel=0)
-            https_handler = HTTPSHandler(debuglevel=0)
-            opener = build_opener(http_handler, https_handler)
-            install_opener(opener)
-            u = urlopen(r)
-            contents = u.read()
-            u.close()
-            return contents
-        except:
-            raise RuntimeError('Could not open URL: {}'.format(url))
 
-
-def listCategory():
+def list_category():
     items = list()
-    # create main menu. There is no good api that includes A-Ü, so let's do it manually for now
-    # video
-    item = xbmcgui.ListItem('[COLOR %s]Video[/COLOR]' % get_colour(__settings__.getSetting('colourCategory')))
-    item.setArt({'fanart': FANART, 'poster': FANART, 'icon': FANART})
-    items.append((PATH + '?action=category&category={}'.format('saated'), item, False))
-    item = xbmcgui.ListItem(' Saated')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=category&category={}'.format('v-saated'), item, True))
-    item = xbmcgui.ListItem(' Sarjad')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=category&category={}'.format('sarjad'), item, True))
-    item = xbmcgui.ListItem(' Filmid')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=category&category={}'.format('filmid'), item, True))
-    item = xbmcgui.ListItem(' Sport')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=category&category={}'.format('sport'), item, True))
-    item = xbmcgui.ListItem(' Saated A-Ü')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=listing&category={}'.format('video'), item, True))
-    # audio
-    item = xbmcgui.ListItem('[COLOR %s]Audio[/COLOR]' % get_colour(__settings__.getSetting('colourCategory')))
-    item.setArt({'fanart': FANART, 'poster': FANART, 'icon': FANART})
-    items.append((PATH + '?action=category&category={}'.format('audio'), item, False))
-    item = xbmcgui.ListItem(' Saated')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=category&category={}'.format('audio'), item, True))
-    item = xbmcgui.ListItem(' Muusika')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=category&category={}'.format('muusika'), item, True))
-    item = xbmcgui.ListItem(' Raadioteater')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=category&category={}'.format('raadioteater'), item, True))
-    item = xbmcgui.ListItem(' Saated A-Ü')
-    item.setArt({'fanart': FANART})
-    items.append((PATH + '?action=listing&category={}'.format('audio'), item, True))
+    menu = Menu()
+    menuitems = menu.get_menu_items()
+    search_icon = os.path.join(ADDON.getAddonInfo('path'), 'resources', 'search.png')
+
+    item = xbmcgui.ListItem(ADDON.getLocalizedString(30012))
+    item.setArt({'fanart': search_icon, 'poster': search_icon, 'icon': search_icon})
+    items.append((PATH + '?action=search', item, True))
+
+    for menuitem in menuitems:
+        if menuitem['kids_count'] > 0:
+            item = xbmcgui.ListItem(
+                '[COLOR {}]{}[/COLOR]'.format(helpers.get_colour(__settings__.getSetting('colourCategory')),
+                                              menuitem['name']))
+            item.setArt({'fanart': FANART, 'poster': FANART, 'icon': FANART})
+            items.append((PATH + '?action=category&category={}'.format(menuitem['link'].replace('/', '')), item, False))
+            for sub_item in menuitem['kids']:
+                if sub_item['kids_count'] < 2:  # Audio submenu has Järjejutud as kid
+                    item = xbmcgui.ListItem(' {}'.format(sub_item['name']))
+                    item.setArt({'fanart': FANART})
+                    items.append(
+                        (PATH + '?action=category&category={}'.format(sub_item['link'].replace('/', '')), item, True))
+            # Inject extra items
+            item = xbmcgui.ListItem(' Saated A-Ü')
+            item.setArt({'fanart': FANART})
+            items.append((PATH + '?action=listing&category={}'.format(menuitem['name'].lower()), item, True))
     # make menu
     xbmcplugin.addDirectoryItems(_handle, items)
     xbmcplugin.endOfDirectory(_handle)
 
 
-def get_category(category):
-    # web_pdb.set_trace()
-    url = API_BASEURL + 'category/getByUrl?url={}&domain=jupiter.err.ee'.format(category)
-    # xbmc.log('%s url: %s' % (category, url), xbmc.LOGNOTICE)
+def get_search_string():
+    kb = xbmc.Keyboard('', ADDON.getLocalizedString(30013))
+    kb.doModal()
+    if not kb.isConfirmed():
+        return
+    query = kb.getText()
+    return query
+
+
+def do_search():
+    search = Search(search_phrase=get_search_string())
     items = list()
+    available_types = ["video", "audio"]
+    for index, content_type in enumerate(available_types):
+        item = xbmcgui.ListItem(
+            '[COLOR {}]{} {}: {}[/COLOR]'.format(helpers.get_colour(__settings__.getSetting('colourCategory')),
+                                                 content_type.capitalize(),
+                                                 ADDON.getLocalizedString(30014),
+                                                 search.get_response()[index]))
+        item.setArt({'fanart': FANART})
+        items.append((PATH + '', item, False))
+        for result in search.get_results(content_type=content_type):
+            item = xbmcgui.ListItem(result['heading'])
+            item.setArt({'fanart': FANART})
+            items.append((PATH + '?action=section&section={}&sub=false'.format(result['id']), item, True))
 
-    data = json.loads(download_url(url))
-    # xbmc.log('Data: %s' % data, xbmc.LOGNOTICE)
-    for header in data["data"]["category"]["frontPage"]:
-        # xbmc.log('Header item: %s' % header["header"].encode('ascii', 'ignore'), xbmc.LOGNOTICE)
-        item = xbmcgui.ListItem("[COLOR {}]{}[/COLOR]".format(get_colour(__settings__.getSetting('colourCategory')), header['header']))
+    xbmcplugin.addDirectoryItems(_handle, items)
+    xbmcplugin.endOfDirectory(_handle)
+
+
+def get_category(categorykey):
+    # web_pdb.set_trace()
+    categories = Category(categorykey)
+    items = list()
+    for category in categories.get_categories():
+        item = xbmcgui.ListItem(
+            "[COLOR {}]{}[/COLOR]".format(helpers.get_colour(__settings__.getSetting('colourCategory')), category))
         items.append((PATH, item))
-        for content in header["data"]:
-            plot = ''
-            fanart = ''
-            if 'lead' in content:
-                plot = strip_tags(content['lead'])
-            info_labels = {'title': content["heading"], 'plot': plot}
-            try:
-                if 'photoUrlOriginal' in content['verticalPhotos'][0]:
-                    fanart = content['verticalPhotos'][0]['photoUrlOriginal']
-            except KeyError:
-                try:
-                    if 'photoTypes' in content['photos'][0]:
-                        fanart = content['photos'][0]['photoTypes']['5']['url']
-                except KeyError:
-                    pass
-
-            item = xbmcgui.ListItem(content["heading"])
+        for category_item in categories.get_gategory_items(category):
+            (item_id, heading, image_url, plot) = (
+                category_item[0], category_item[1], category_item[2], category_item[3])
+            info_labels = {'title': heading, 'plot': plot}
+            item = xbmcgui.ListItem(heading)
             if 'true' in __settings__.getSetting('enableImages'):
-                item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
+                item.setArt({'fanart': image_url, 'poster': image_url, 'icon': image_url})
             item.setInfo(type="Video", infoLabels=info_labels)
-            items.append((PATH + '?action=section&section={}&sub=false'.format(content["id"]), item, True))
+            items.append((PATH + '?action=section&section={}&sub=false'.format(item_id), item, True))
     xbmcplugin.addDirectoryItems(_handle, items)
     xbmcplugin.endOfDirectory(_handle)
 
 
 def get_section(section, sub=''):
     # web_pdb.set_trace()
-    url = API_BASEURL + 'vodContent/getContentPageData?contentId={}'.format(section)
+    data = Content(section)
     items = list()
-    data = json.loads(download_url(url), encoding='utf-8')
-    content_type = data['data']['pageType']
-    if 'type' in data['data']['seasonList']:
-        season_type = data['data']['seasonList']['type']
-    if content_type in ('series') or sub == 'marine':
-        for season in data['data']['seasonList']['items']:
-            try:
+    # xbmc.log('DATA: %s' % data, xbmc.LOGINFO)
+
+    content_type = data.get_page_type()
+    season_type = data.get_seasonlist_type()
+    if content_type in 'series' or sub == 'marine':
+        for season in data.get_season():
+            if data.get_item_id(season) is not None:
                 # Season
-                item = xbmcgui.ListItem("[COLOR {}]Hooaeg: {}[/COLOR]".format(get_colour(__settings__.getSetting('colourSeason')),str(season['id'])))
+                item = xbmcgui.ListItem("[COLOR {}]Hooaeg: {}[/COLOR]".format(
+                    helpers.get_colour(__settings__.getSetting('colourSeason')),
+                    str(data.get_item_id(season)))
+                )
+
                 items.append(
-                    (PATH + '?action=section&section={}&sub=marine'.format(season['firstContentId']), item, True))
-            except:
-                pass
+                    (PATH + '?action=section&section={}&sub=marine'.format(data.get_primaryid(season)),
+                     item, True)
+                )
+
             if season_type == 'monthly':
-                for month in season['items']:
-                    item = xbmcgui.ListItem(" [COLOR {}]{}[/COLOR]".format(get_colour(__settings__.getSetting('colourCategory')), month['name']))
+                for month in data.get_items(season):
+                    item = xbmcgui.ListItem(
+                        " [COLOR {}]{}[/COLOR]".format(
+                            helpers.get_colour(__settings__.getSetting('colourCategory')),
+                            data.get_item_name(month))
+                    )
                     # item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
                     items.append(
-                        (PATH + '?action=section&section={}&sub=marine'.format(month['firstContentId']), item, True))
-                    try:
-                        for day in month['contents']:
-                            fanart = ''
+                        (PATH + '?action=section&section={}&sub=marine'.format(
+                            data.get_item_primaryid(month)), item, True)
+                    )
+
+                    if data.get_item_contents(month) is not None:
+                        for day in data.get_item_contents(month):
                             title = ''
-                            if day['episode'] > 0:
-                                title = day['heading'] + " " + str(day['episode'])
+                            if data.get_item_episode(day) > 0:
+                                title = data.get_item_heading(day) + " " + str(data.get_item_episode(day))
                             else:
-                                title = day['heading']
-                            # no plot, use on-air date
-                            plot = convert_timestamp(day['scheduleStart'])
+                                title = data.get_item_heading(day)
+                            # no plot, use on-air date // TODO find something else instead
+                            plot = helpers.convert_timestamp(data.get_item_schedule_start(day))
+
                             info_labels = {'title': title, 'plot': plot}
-                            # get photos if posible
-                            if 'horizontalPhotos' in day:
-                                if 'photoUrlOriginal' in day['horizontalPhotos'][0]:
-                                    fanart = day['horizontalPhotos'][0]['photoUrlOriginal']
-                            elif 'photos' in day:
-                                if 'photoUrlOriginal' in day['photos'][0]:
-                                    fanart = day['photos'][0]['photoUrlOriginal']
+                            fanart = data.get_item_photo(day)
+
                             item = xbmcgui.ListItem("  {}".format(title))
                             if 'true' in __settings__.getSetting('enableImages'):
                                 item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
                             item.setInfo(type="Video", infoLabels=info_labels)
-                            items.append((PATH + '?action=section&section={}&sub=false'.format(day['id']), item, True))
-                    except (KeyError, IndexError):
-                        pass
-            elif season_type in ('seasonal', 'shortSeriesList'):
-                try:
-                    for episood in season['contents']:
-                        # xbmc.log(' EpisoodiId: %s' % str(episood['id']), xbmc.LOGNOTICE)
-                        fanart = ''
-                        if 'subHeading' in episood and len(episood['subHeading']) > 2:
-                            title = episood['subHeading']
-                        elif 'heading' in episood:
-                            title = episood['heading']
-                        else:
-                            title = str(episood['episode'])
+                            items.append((PATH + '?action=section&section={}&sub=false'.format(
+                                data.get_item_id(day)), item, True))
 
-                        if 'photoUrlOriginal' in episood['photos'][0]:
-                            fanart = episood['photos'][0]['photoUrlOriginal']
-                        item = xbmcgui.ListItem(title)
-                        if 'true' in __settings__.getSetting('enableImages'):
-                            item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
-                        items.append((PATH + '?action=section&section={}&sub=false'.format(episood['id']), item, True))
-                except:
-                    pass
+            elif season_type in ('seasonal', 'shortSeriesList') and data.get_item_contents(
+                    season) is not None:
+                # xbmc.log(' Season: %s' % str(season_type), xbmc.LOGINFO)
+
+                for episood in data.get_item_contents(season):
+                    subheading = data.get_item_subheading(episood)
+                    heading = data.get_item_heading(episood)
+                    fanart = data.get_item_photo(episood)
+
+                    if subheading is not None and len(subheading) > 2:
+                        title = subheading
+                    elif heading is not None:
+                        title = heading
+                    else:
+                        title = str(data.get_item_episode(episood))
+
+                    item = xbmcgui.ListItem(title)
+                    if 'true' in __settings__.getSetting('enableImages'):
+                        item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
+                    items.append((PATH + '?action=section&section={}&sub=false'.format(episood['id']), item, True))
+
     elif content_type in ('movie', 'episode'):
-        fanart = ''
         sub = []
         languages = []
         languages.extend((
-            get_subtitle_language(__settings__.getSetting('primaryLanguage')),
-            get_subtitle_language(__settings__.getSetting('secondaryLanguage'))
+            helpers.get_subtitle_language(__settings__.getSetting('primaryLanguage')),
+            helpers.get_subtitle_language(__settings__.getSetting('secondaryLanguage'))
         ))
 
-        title = data['data']['mainContent']['heading']
-        video = data['data']['mainContent']['medias'][0]['src']['hls'].replace('//', 'http://', 1)
-        plot = strip_tags(data['data']['mainContent']['body'])
-        drm = data['data']['mainContent']['medias'][0]['restrictions']['drm']
+        title = data.get_heading()
+        video = data.get_hls()
+        plot = helpers.strip_tags(data.get_body())
+        drm = data.get_drm()
+
         # we can play DRM content
         if drm:
-            # title = '[COLOR {}][I]{}[/I][/COLOR]'.format(get_colour(__settings__.getSetting('colourUnplayable')),title)
-            token = data['data']['mainContent']['medias'][0]['jwt']
-            license_server = data['data']['mainContent']['medias'][0]['licenseServerUrl']['widevine']
-            video = data['data']['mainContent']['medias'][0]['src']['dash'].replace('//', 'https://', 1)
+            token = data.get_token()
+            license_server = data.get_license_server()
+            video = data.get_dash()
+
         info_labels = {'title': title, 'plot': plot}
-        try:
-            for language in languages:
-                for subtitle in data['data']['mainContent']['medias'][0]['subtitles']:
-                    if subtitle['srclang'] == language:
-                        sub = (subtitle['src'], language)
-                        break
-        except KeyError:
-            pass
+
+        for language in languages:
+            if data.get_subtitles(language) is not None:
+                sub.append(data.get_subtitles(language))
+
         # web_pdb.set_trace()
-        if 'photoUrlOriginal' in data['data']['mainContent']['photos'][0]:
-            fanart = data['data']['mainContent']['photos'][0]['photoUrlOriginal']
+        fanart = data.get_photo()
         item = xbmcgui.ListItem(title, path=video)
         if 'true' in __settings__.getSetting('enableImages'):
             item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
@@ -250,31 +238,27 @@ def get_section(section, sub=''):
         item.setProperty('isFolder', 'False')
         if drm:
             if is_helper.check_inputstream():
-               item.setContentLookup(False)
-               item.setMimeType(MIME_TYPE)
-               if KODI_VERSION_MAJOR >= 19:
-                item.setProperty('inputstream', is_helper.inputstream_addon)
-               else:
-                item.setProperty('inputstreamaddon', is_helper.inputstream_addon)
-               item.setProperty('inputstream.adaptive.manifest_type', PROTOCOL)
-               item.setProperty('inputstream.adaptive.license_type', DRM)
-               item.setProperty('inputstream.adaptive.license_key', license_server + '|X-AxDRM-Message='+token+'|R{SSM}|')     
-        try:
-            if sub:
-                item.setSubtitles(sub)
-        except:
-            pass
-
+                item.setContentLookup(False)
+                item.setMimeType(MIME_TYPE)
+                if KODI_VERSION_MAJOR >= 19:
+                    item.setProperty('inputstream', is_helper.inputstream_addon)
+                else:
+                    item.setProperty('inputstreamaddon', is_helper.inputstream_addon)
+                item.setProperty('inputstream.adaptive.manifest_type', PROTOCOL)
+                item.setProperty('inputstream.adaptive.license_type', DRM)
+                item.setProperty('inputstream.adaptive.license_key',
+                                 license_server + '|X-AxDRM-Message=' + token + '|R{SSM}|')
+        item.setSubtitles(sub)
         items.append((video, item))
     xbmcplugin.addDirectoryItems(_handle, items)
     xbmcplugin.endOfDirectory(_handle)
 
 
 def get_all_shows(type):
-    url = API_BASEURL + 'series/getSeriesData?type={}'.format(type)
+    url = '{}{}/series/getSeriesData?type={}'.format(ERR_API_BASEURL, ERR_API_VERSION, type)
     # xbmc.log('url: %s' % url, xbmc.LOGNOTICE)
     items = list()
-    data = json.loads(download_url(url))
+    data = helpers.download_url(url).json()
     for show in data['data']['items']:
         item = xbmcgui.ListItem("{}".format(show['heading']))
         if 'photoUrlOriginal' in show['photos'][0]:
@@ -286,46 +270,6 @@ def get_all_shows(type):
     xbmcplugin.endOfDirectory(_handle)
 
 
-def get_subtitle_language(lang):
-    # helper function to map human readable settings to required abbreviation
-    if int(lang) == 0:
-        return "ET"
-    elif int(lang) == 1:
-        return "VA"
-    elif int(lang) == 2:
-        return "RU"
-    else:
-        pass
-
-def get_colour(color):
-    colours = {
-        0:'white',
-        1:'ivory',
-        2:'silver',
-        3:'gray',
-        4:'limegreen',
-        5:'green',
-        6:'lightblue',
-        7:'blue',
-        8:'deeppink',
-        9:'turquoise',
-        10:'gold',
-        11:'yellow',
-        12:'brown',
-        13:'orange',
-        14:'red'
-    }
-    return colours.get(int(color),'blue')
-
-def convert_timestamp(input):
-    return datetime.fromtimestamp(int(input)).strftime('%Y-%m-%d %H:%M:%S')
-
-
-def strip_tags(string):
-    # simple, unsafe stripper
-    return re.sub('<[^<]+?>', '', string)
-
-
 def router(paramstring):
     params = dict(parse_qsl(paramstring))
     if params:
@@ -335,10 +279,12 @@ def router(paramstring):
             get_section(params['section'], params['sub'])
         elif params['action'] == 'listing':
             get_all_shows(params['category'])
+        elif params['action'] == 'search':
+            do_search()
         else:
             raise ValueError('Invalid paramstring: {0}!'.format(paramstring))
     else:
-        listCategory()
+        list_category()
 
 
 if __name__ == '__main__':
