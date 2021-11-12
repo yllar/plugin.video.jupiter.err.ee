@@ -18,6 +18,8 @@
         <platform>all</platform>
         <language>et</language>
         <news>
+- 0.0.9 - fix #4 - broke support for Kodi v18
+
 - 0.0.8 - otsing + mõned muudatused
 
 - 0.0.7 - piltide leidmise parandus

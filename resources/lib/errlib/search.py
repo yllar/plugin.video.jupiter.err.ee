@@ -1,3 +1,4 @@
+# coding: utf-8
 import json
 
 from .helpers import download_url
