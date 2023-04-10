@@ -77,19 +77,19 @@ class Content:
 
     def get_hls(self):
         try:
-            return 'https:' + self.content['data']['mainContent']['medias'][0]['src']['hls']
+            return 'http:' + self.content['data']['mainContent']['medias'][0]['src']['hls']
         except (KeyError, TypeError, IndexError):
             return None
 
     def get_dash(self):
         try:
-            return 'https:' + self.content['data']['mainContent']['medias'][0]['src']['dash']
+            return 'http:' + self.content['data']['mainContent']['medias'][0]['src']['dash']
         except (KeyError, TypeError, IndexError):
             return None
 
     def get_file(self):
         try:
-            return 'https:' + self.content['data']['mainContent']['medias'][0]['src']['file']
+            return 'http:' + self.content['data']['mainContent']['medias'][0]['src']['file']
         except (KeyError, TypeError, IndexError):
             return None
 
