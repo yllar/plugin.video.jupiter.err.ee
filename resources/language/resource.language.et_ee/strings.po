@@ -140,3 +140,7 @@ msgstr "[COLOR orange]Oranž[/COLOR]"
 msgctxt "#30044"
 msgid "[COLOR red]Red[/COLOR]"
 msgstr "[COLOR red]Punane[/COLOR]"
+
+msgctxt "#30045"
+msgid "Enable inputstream.adaptive on DRM free content"
+msgstr "Luba inputstream.adaptive DRM vabal sisul"
