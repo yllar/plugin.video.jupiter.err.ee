@@ -135,3 +135,7 @@ msgstr ""
 msgctxt "#30044"
 msgid "[COLOR red]Red[/COLOR]"
 msgstr ""
+
+msgctxt "#30045"
+msgid "Enable inputstream.adaptive on DRM free content"
+msgstr "Enable inputstream.adaptive on DRM free content"

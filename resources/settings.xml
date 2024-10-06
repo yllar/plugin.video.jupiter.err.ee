@@ -6,6 +6,7 @@
 	<setting id="secondaryLanguage" type="enum" label="30003" lvalues="30004|30005|30006" default="1"/>
 </category>
 <category label="30007">
+	<setting id="isa" type="bool" label="30045" default="true"/>
 	<setting id="enableImages" type="bool" label="30008" default="true"/>
 	<setting type="sep"/>
 	<setting id="colourCategory" type="enum" label="30009" lvalues="30030|30031|30032|30033|30034|30035|30036|30037|30038|30039|30040|30041|30042|30043|30044" default="7"/>

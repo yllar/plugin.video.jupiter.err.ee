@@ -234,8 +234,15 @@ def get_section(section, sub=''):
         if 'true' in __settings__.getSetting('enableImages'):
             item.setArt({'fanart': fanart, 'poster': fanart, 'icon': fanart})
         item.setInfo(type="Video", infoLabels=info_labels)
-        item.setProperty('IsPlayable', 'True')
-        item.setProperty('isFolder', 'False')
+        helper = inputstreamhelper.Helper('hls')
+        if 'true' in __settings__.getSetting('isa') and helper.check_inputstream():
+            if KODI_VERSION_MAJOR >= 19:
+            	item.setProperty('inputstream','inputstream.adaptive')
+            else:
+            	item.setProperty('inputstreamaddon','inputstream.adaptive')
+            item.setProperty('inputstream.adaptive.manifest_type', 'hls')
+            item.setProperty('IsPlayable', 'True')
+            item.setProperty('isFolder', 'False')
         if drm:
             if is_helper.check_inputstream():
                 item.setContentLookup(False)
