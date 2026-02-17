@@ -1,6 +1,4 @@
 # coding: utf-8
-import json
-
 from .helpers import download_url
 from .constants import (
     ERR_API_BASEURL,
@@ -204,11 +202,21 @@ class Content:
             return None
 
     def get_item_photo(self, item_index):
+        """Get photo URL with fallback logic.
+
+        Args:
+            item_index: Item dictionary containing photo data
+
+        Returns:
+            Photo URL string or None
+        """
         try:
-            if self.get_item_photo_horizontal(item_index) is not None:
-                return self.get_item_photo_horizontal(item_index)
-            else:
-                return self.get_item_photo_original(item_index)
+            # Try horizontal photo first (avoid calling twice)
+            horizontal = self.get_item_photo_horizontal(item_index)
+            if horizontal is not None:
+                return horizontal
+            # Fallback to original photo
+            return self.get_item_photo_original(item_index)
         except (KeyError, TypeError, IndexError):
             return None
 

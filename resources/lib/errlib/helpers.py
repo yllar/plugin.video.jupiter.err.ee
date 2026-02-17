@@ -1,6 +1,6 @@
-# coding: utf-8
 import re
-from datetime import datetime
+import time
+from datetime import datetime, timezone
 import requests
 
 from .constants import (
@@ -8,41 +8,96 @@ from .constants import (
 )
 
 
-def download_url(url, header=None):
-    for retries in range(0, 5):
+def download_url(url, header=None, timeout=10):
+    """Download content from URL with retry logic and timeout.
+
+    Args:
+        url: URL to download from
+        header: Optional dictionary of additional headers
+        timeout: Request timeout in seconds (default: 10)
+
+    Returns:
+        requests.Response object
+
+    Raises:
+        RuntimeError: If all retry attempts fail
+    """
+    last_exception = None
+
+    for retry_count in range(5):
         try:
             headers = {}
             if header:
                 headers = {k: v for k, v in header}
             headers['User-Agent'] = USER_AGENT
-            contents = requests.get(url, headers=headers)
+
+            # Make request with timeout and explicit HTTPS verification
+            contents = requests.get(url, headers=headers, timeout=timeout, verify=True)
+            contents.raise_for_status()
             return contents
-        except:
-            raise RuntimeError('Could not open URL: {}'.format(url))
+
+        except (requests.exceptions.RequestException, IOError) as e:
+            last_exception = e
+            if retry_count < 4:  # Don't sleep on last attempt
+                # Exponential backoff: 0.5s, 1s, 2s, 4s
+                time.sleep(0.5 * (2 ** retry_count))
+
+    # All retries exhausted
+    raise RuntimeError(f'Could not open URL after 5 attempts: {url}. Last error: {last_exception}')
 
 
 def strip_tags(string):
-    # simple, unsafe stripper
+    """Remove HTML tags from string.
+
+    Args:
+        string: String potentially containing HTML tags
+
+    Returns:
+        String with HTML tags removed
+    """
+    if not string:
+        return ''
     return re.sub('<[^<]+?>', '', string)
 
 
 def convert_timestamp(input):
-    return datetime.fromtimestamp(int(input)).strftime('%Y-%m-%d %H:%M:%S')
+    """Convert Unix timestamp to readable UTC format.
+
+    Args:
+        input: Unix timestamp (int or string)
+
+    Returns:
+        Formatted date string (YYYY-MM-DD HH:MM:SS UTC)
+    """
+    return datetime.fromtimestamp(int(input), tz=timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
 
 
 def get_subtitle_language(lang):
-    # helper function to map human readable settings to required abbreviation
-    if int(lang) == 0:
-        return "ET"
-    elif int(lang) == 1:
-        return "VA"
-    elif int(lang) == 2:
-        return "RU"
-    else:
-        pass
+    """Map subtitle language setting to abbreviation.
+
+    Args:
+        lang: Language setting (0=Estonian, 1=Voice-over, 2=Russian)
+
+    Returns:
+        Two-letter language code (ET, VA, RU), defaults to ET
+    """
+    language_map = {
+        0: "ET",
+        1: "VA",
+        2: "RU"
+    }
+    return language_map.get(int(lang), "ET")
 
 
 def get_colour(color):
+    """Map color setting to color name.
+
+    Args:
+        color: Color setting (0-14)
+
+    Returns:
+        Color name string, defaults to 'blue'
+    """
     colours = {
         0: 'white',
         1: 'ivory',
