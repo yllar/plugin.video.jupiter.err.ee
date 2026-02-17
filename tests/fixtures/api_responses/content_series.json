@@ -1,0 +1,3292 @@
+{
+    "apiVersion": "2.0",
+    "data": {
+        "mainContent": {
+            "id": 1609911839,
+            "updated": 1768491000,
+            "scheduleStart": 1769970600,
+            "heading": "Eesti lood",
+            "subHeading": "\u00c4ra sega, ma m\u00f5tlen!",
+            "lead": "<p>Nad on m\u00e4lum\u00e4ngurid. \u00d5htuh\u00e4maruse valitsejad. Silja, Toivo ja Toomas on andnud oma k\u00e4e m\u00e4lum\u00e4ngule. Mis juhtub kui meie tegelased \u00fches ruumis kokku saavad? Kui palju nad teavad?</p>",
+            "body": "<p>Tartu. V\u00e4ike \u00fclikoolilinn p\u00f5hjapoolkeral. Igal argip\u00e4eval peale t\u00f6\u00f6p\u00e4eva l\u00f5ppu alustavad paljud selle linna asukad selgesuunalisi liikumisi. M\u00f5\u00f5detud tempoga. \u00c4\u00e4rmise kindlameelsusega. Nad kogunevad keldrites, k\u00f5rtsides, baarides, restoranides, vinoteekides, j\u00f5elaevadel. Igal \u00f5htul on nad kuskil linnapeal. Tegevuses.</p>\n<p>Re\u017eii ja stsenaarium Andres Keil ja Jaak Kilmi. Operaatorid Jaak Kilmi, Aleksandr Heifets, Aivo Rannik, Alis M\u00e4esalu, Hans Joosep Tamme. Tootja Pimik.</p>",
+            "primaryCategoryId": 4135,
+            "iframeMediaUrl": "",
+            "parentContentId": 1038302,
+            "parentContentPath": "[1038302]",
+            "seriesType": 0,
+            "type": "episode",
+            "txReqId": 1,
+            "color": "#000000",
+            "season": 23,
+            "episode": 8,
+            "country": "Eesti",
+            "originalTitle": "",
+            "year": "2025",
+            "contentOrder": 0,
+            "editor": "",
+            "url": "https://jupiter.err.ee/1609911839/eesti-lood",
+            "radiomanId": 0,
+            "lastChangedBy": 76492,
+            "commenting": 2,
+            "progId": 11137513799,
+            "photos": [
+                {
+                    "id": 3157588,
+                    "ord": 0,
+                    "type": 0,
+                    "created": 1768808507,
+                    "version": 1,
+                    "format": "png",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h1018t1.png"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h3539t2.png"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h0121t6.png"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h759ct8.png"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h4c88t11.png"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h1b88t15.png"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588he2fet16.png"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h902bt22.png"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h92c2t24.png"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588ha6dat26.png"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h9145t37.png"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hf743t44.png"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h636ft46.png"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8429t47.png"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588he99ft48.png"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h20bet49.png"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h0897t52.png"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8477t60.png"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8522t61.png"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hf1c2t62.png"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h3c50t64.png"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hd30ct65.png"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hfce3t66.png"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h630bt67.png"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h13dct68.png"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h13fct69.png"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588he0b4t70.png"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hde9ct71.png"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h11e8t72.png"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hab55t80.png"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/19/3157588h98e4.png",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/19/3157588h98e4.png"
+                }
+            ],
+            "horizontalPhotos": [
+                {
+                    "id": 3157588,
+                    "ord": 0,
+                    "type": 0,
+                    "created": 1768808507,
+                    "version": 1,
+                    "format": "png",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h1018t1.png"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h3539t2.png"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h0121t6.png"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h759ct8.png"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h4c88t11.png"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h1b88t15.png"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588he2fet16.png"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h902bt22.png"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h92c2t24.png"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588ha6dat26.png"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h9145t37.png"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hf743t44.png"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h636ft46.png"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8429t47.png"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588he99ft48.png"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h20bet49.png"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h0897t52.png"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8477t60.png"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8522t61.png"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hf1c2t62.png"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h3c50t64.png"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hd30ct65.png"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hfce3t66.png"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h630bt67.png"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h13dct68.png"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h13fct69.png"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588he0b4t70.png"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hde9ct71.png"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h11e8t72.png"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588hab55t80.png"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/19/3157588h98e4.png",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/19/3157588h98e4.png"
+                }
+            ],
+            "verticalPhotos": [
+                {
+                    "id": 3165668,
+                    "ord": 0,
+                    "type": 1,
+                    "created": 1769431818,
+                    "version": 0,
+                    "format": "jpg",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h4484t1.jpg"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668ha39ct2.jpg"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668he495t6.jpg"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h47e9t8.jpg"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h0dcct11.jpg"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h4688t15.jpg"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h2abat16.jpg"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h644ct22.jpg"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h5741t24.jpg"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h0d66t26.jpg"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h7d37t37.jpg"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h75b8t44.jpg"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h23edt46.jpg"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h61dft47.jpg"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h4154t48.jpg"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h8161t49.jpg"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h49cbt52.jpg"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h3f30t60.jpg"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668hc6ebt61.jpg"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h98cbt62.jpg"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668he657t64.jpg"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h7dd4t65.jpg"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h067ft66.jpg"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h8802t67.jpg"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h3994t68.jpg"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h696et69.jpg"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h86a2t70.jpg"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h5c1at71.jpg"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668had43t72.jpg"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668head9t80.jpg"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/26/3165668ha018.jpg",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/26/3165668ha018.jpg"
+                }
+            ],
+            "horizontalPoster": [],
+            "heroImage": [
+                {
+                    "id": 3157591,
+                    "ord": 0,
+                    "type": 3,
+                    "created": 1768808532,
+                    "version": 1,
+                    "format": "png",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h935ct1.png"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591habe5t2.png"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h5dddt6.png"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h3c1ft8.png"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h0f08t11.png"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h593at15.png"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h1e83t16.png"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h34c8t22.png"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h82d7t24.png"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h9713t26.png"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591hb6a1t37.png"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h0794t44.png"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h606ft46.png"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h770ft47.png"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h1b71t48.png"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h3fc3t49.png"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h1eb0t52.png"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591hda74t60.png"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h285at61.png"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h806ft62.png"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591hd72ct64.png"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h7695t65.png"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h0b2bt66.png"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h2848t67.png"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591hfc37t68.png"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591haccdt69.png"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h5175t70.png"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h85b3t71.png"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591he542t72.png"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h01cbt80.png"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/19/3157591h75b2.png",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/19/3157591h75b2.png"
+                }
+            ],
+            "squarePhotos": [],
+            "parentContent": [
+                {
+                    "id": 1038302,
+                    "type": "series",
+                    "photos": [
+                        {
+                            "id": 579719,
+                            "ord": 0,
+                            "type": 2
+                        }
+                    ],
+                    "horizontalPhotos": [
+                        {
+                            "id": 579719,
+                            "ord": 0,
+                            "type": 0
+                        }
+                    ],
+                    "verticalPhotos": [
+                        {
+                            "id": 2400540,
+                            "ord": 0,
+                            "type": 1
+                        }
+                    ],
+                    "horizontalPoster": [
+                        {
+                            "id": 579719,
+                            "ord": 0,
+                            "type": 2
+                        }
+                    ],
+                    "heroImage": [],
+                    "squarePhotos": []
+                }
+            ],
+            "rootContentId": 1038302,
+            "rootContent": {
+                "id": 1038302,
+                "heading": "Eesti lood",
+                "lead": "<p>Sari pooletunnistest t\u00f5sielufilmidest.</p>",
+                "body": "",
+                "url": "eesti-lood",
+                "color": "#000000",
+                "contentOrder": 1,
+                "seriesType": 2,
+                "primaryCategoryId": 4135,
+                "playlistStyle": 1,
+                "contentVisible": 1,
+                "newsSiteUrl": "",
+                "eMail": "",
+                "allowContentPhoto": 1,
+                "commenting": 1,
+                "categoryCommenting": 1,
+                "host": "",
+                "type": "series",
+                "hideEpisodeNumber": 1,
+                "visibleEpisodeDays": 0,
+                "visibilityStart": 0,
+                "photos": [
+                    {
+                        "id": 579719,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1514903762,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Eesti lood 2017",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Pressimaterjalid",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "1": {
+                                "type": 1,
+                                "w": 120,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h257at1.jpg"
+                            },
+                            "2": {
+                                "type": 2,
+                                "w": 1920,
+                                "h": 1080,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hf199t2.jpg"
+                            },
+                            "6": {
+                                "type": 6,
+                                "w": 800,
+                                "h": 500,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h91aat6.jpg"
+                            },
+                            "8": {
+                                "type": 8,
+                                "w": 400,
+                                "h": 250,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h8cfbt8.jpg"
+                            },
+                            "11": {
+                                "type": 11,
+                                "w": 96,
+                                "h": 60,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719haae8t11.jpg"
+                            },
+                            "15": {
+                                "type": 15,
+                                "w": 800,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h5cf3t15.jpg"
+                            },
+                            "16": {
+                                "type": 16,
+                                "w": 1000,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h8fact16.jpg"
+                            },
+                            "22": {
+                                "type": 22,
+                                "w": 312,
+                                "h": 195,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h26a0t22.jpg"
+                            },
+                            "24": {
+                                "type": 24,
+                                "w": 672,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h41f3t24.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h91b5t26.jpg"
+                            },
+                            "37": {
+                                "type": 37,
+                                "w": 1440,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha4e7t37.jpg"
+                            },
+                            "44": {
+                                "type": 44,
+                                "w": 200,
+                                "h": 200,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hd57et44.jpg"
+                            },
+                            "46": {
+                                "type": 46,
+                                "w": 1920,
+                                "h": 1920,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h3b0bt46.jpg"
+                            },
+                            "47": {
+                                "type": 47,
+                                "w": 1920,
+                                "h": 1440,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h6da6t47.jpg"
+                            },
+                            "48": {
+                                "type": 48,
+                                "w": 1440,
+                                "h": 810,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h0a94t48.jpg"
+                            },
+                            "49": {
+                                "type": 49,
+                                "w": 0,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha970t49.jpg"
+                            },
+                            "52": {
+                                "type": 52,
+                                "w": 32,
+                                "h": 16,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h4d11t52.jpg"
+                            },
+                            "60": {
+                                "type": 60,
+                                "w": 180,
+                                "h": 270,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h9fcat60.jpg"
+                            },
+                            "61": {
+                                "type": 61,
+                                "w": 768,
+                                "h": 432,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h66eat61.jpg"
+                            },
+                            "62": {
+                                "type": 62,
+                                "w": 1648,
+                                "h": 1030,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h0211t62.jpg"
+                            },
+                            "64": {
+                                "type": 64,
+                                "w": 824,
+                                "h": 515,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h69bft64.jpg"
+                            },
+                            "65": {
+                                "type": 65,
+                                "w": 592,
+                                "h": 370,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hae77t65.jpg"
+                            },
+                            "66": {
+                                "type": 66,
+                                "w": 296,
+                                "h": 185,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719he462t66.jpg"
+                            },
+                            "67": {
+                                "type": 67,
+                                "w": 168,
+                                "h": 168,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hcff1t67.jpg"
+                            },
+                            "68": {
+                                "type": 68,
+                                "w": 84,
+                                "h": 84,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h1929t68.jpg"
+                            },
+                            "69": {
+                                "type": 69,
+                                "w": 1568,
+                                "h": 980,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha99dt69.jpg"
+                            },
+                            "70": {
+                                "type": 70,
+                                "w": 784,
+                                "h": 490,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hc0dbt70.jpg"
+                            },
+                            "71": {
+                                "type": 71,
+                                "w": 2032,
+                                "h": 1270,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h6f76t71.jpg"
+                            },
+                            "72": {
+                                "type": 72,
+                                "w": 1016,
+                                "h": 635,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h41cbt72.jpg"
+                            },
+                            "80": {
+                                "type": 80,
+                                "w": 400,
+                                "h": 600,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h95dbt80.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2018/01/02/579719he74a.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2018/01/02/579719he74a.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 579719,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1514903762,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Eesti lood 2017",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Pressimaterjalid",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "1": {
+                                "type": 1,
+                                "w": 120,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h257at1.jpg"
+                            },
+                            "2": {
+                                "type": 2,
+                                "w": 1920,
+                                "h": 1080,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hf199t2.jpg"
+                            },
+                            "6": {
+                                "type": 6,
+                                "w": 800,
+                                "h": 500,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h91aat6.jpg"
+                            },
+                            "8": {
+                                "type": 8,
+                                "w": 400,
+                                "h": 250,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h8cfbt8.jpg"
+                            },
+                            "11": {
+                                "type": 11,
+                                "w": 96,
+                                "h": 60,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719haae8t11.jpg"
+                            },
+                            "15": {
+                                "type": 15,
+                                "w": 800,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h5cf3t15.jpg"
+                            },
+                            "16": {
+                                "type": 16,
+                                "w": 1000,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h8fact16.jpg"
+                            },
+                            "22": {
+                                "type": 22,
+                                "w": 312,
+                                "h": 195,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h26a0t22.jpg"
+                            },
+                            "24": {
+                                "type": 24,
+                                "w": 672,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h41f3t24.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h91b5t26.jpg"
+                            },
+                            "37": {
+                                "type": 37,
+                                "w": 1440,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha4e7t37.jpg"
+                            },
+                            "44": {
+                                "type": 44,
+                                "w": 200,
+                                "h": 200,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hd57et44.jpg"
+                            },
+                            "46": {
+                                "type": 46,
+                                "w": 1920,
+                                "h": 1920,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h3b0bt46.jpg"
+                            },
+                            "47": {
+                                "type": 47,
+                                "w": 1920,
+                                "h": 1440,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h6da6t47.jpg"
+                            },
+                            "48": {
+                                "type": 48,
+                                "w": 1440,
+                                "h": 810,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h0a94t48.jpg"
+                            },
+                            "49": {
+                                "type": 49,
+                                "w": 0,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha970t49.jpg"
+                            },
+                            "52": {
+                                "type": 52,
+                                "w": 32,
+                                "h": 16,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h4d11t52.jpg"
+                            },
+                            "60": {
+                                "type": 60,
+                                "w": 180,
+                                "h": 270,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h9fcat60.jpg"
+                            },
+                            "61": {
+                                "type": 61,
+                                "w": 768,
+                                "h": 432,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h66eat61.jpg"
+                            },
+                            "62": {
+                                "type": 62,
+                                "w": 1648,
+                                "h": 1030,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h0211t62.jpg"
+                            },
+                            "64": {
+                                "type": 64,
+                                "w": 824,
+                                "h": 515,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h69bft64.jpg"
+                            },
+                            "65": {
+                                "type": 65,
+                                "w": 592,
+                                "h": 370,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hae77t65.jpg"
+                            },
+                            "66": {
+                                "type": 66,
+                                "w": 296,
+                                "h": 185,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719he462t66.jpg"
+                            },
+                            "67": {
+                                "type": 67,
+                                "w": 168,
+                                "h": 168,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hcff1t67.jpg"
+                            },
+                            "68": {
+                                "type": 68,
+                                "w": 84,
+                                "h": 84,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h1929t68.jpg"
+                            },
+                            "69": {
+                                "type": 69,
+                                "w": 1568,
+                                "h": 980,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha99dt69.jpg"
+                            },
+                            "70": {
+                                "type": 70,
+                                "w": 784,
+                                "h": 490,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hc0dbt70.jpg"
+                            },
+                            "71": {
+                                "type": 71,
+                                "w": 2032,
+                                "h": 1270,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h6f76t71.jpg"
+                            },
+                            "72": {
+                                "type": 72,
+                                "w": 1016,
+                                "h": 635,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h41cbt72.jpg"
+                            },
+                            "80": {
+                                "type": 80,
+                                "w": 400,
+                                "h": 600,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h95dbt80.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2018/01/02/579719he74a.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2018/01/02/579719he74a.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 2400540,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1715941036,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Eesti lood",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "1": {
+                                "type": 1,
+                                "w": 120,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540he1f5t1.jpg"
+                            },
+                            "2": {
+                                "type": 2,
+                                "w": 1920,
+                                "h": 1080,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h574dt2.jpg"
+                            },
+                            "6": {
+                                "type": 6,
+                                "w": 800,
+                                "h": 500,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h649ct6.jpg"
+                            },
+                            "8": {
+                                "type": 8,
+                                "w": 400,
+                                "h": 250,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h20d4t8.jpg"
+                            },
+                            "11": {
+                                "type": 11,
+                                "w": 96,
+                                "h": 60,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h1e6et11.jpg"
+                            },
+                            "15": {
+                                "type": 15,
+                                "w": 800,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h17f3t15.jpg"
+                            },
+                            "16": {
+                                "type": 16,
+                                "w": 1000,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540had4ft16.jpg"
+                            },
+                            "22": {
+                                "type": 22,
+                                "w": 312,
+                                "h": 195,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h3feet22.jpg"
+                            },
+                            "24": {
+                                "type": 24,
+                                "w": 672,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540hf9c6t24.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h8565t26.jpg"
+                            },
+                            "37": {
+                                "type": 37,
+                                "w": 1440,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540hcdfat37.jpg"
+                            },
+                            "44": {
+                                "type": 44,
+                                "w": 200,
+                                "h": 200,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h08e8t44.jpg"
+                            },
+                            "46": {
+                                "type": 46,
+                                "w": 1920,
+                                "h": 1920,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540ha013t46.jpg"
+                            },
+                            "47": {
+                                "type": 47,
+                                "w": 1920,
+                                "h": 1440,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h77e8t47.jpg"
+                            },
+                            "48": {
+                                "type": 48,
+                                "w": 1440,
+                                "h": 810,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540ha161t48.jpg"
+                            },
+                            "49": {
+                                "type": 49,
+                                "w": 0,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h717dt49.jpg"
+                            },
+                            "52": {
+                                "type": 52,
+                                "w": 32,
+                                "h": 16,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h0d27t52.jpg"
+                            },
+                            "60": {
+                                "type": 60,
+                                "w": 180,
+                                "h": 270,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h9c82t60.jpg"
+                            },
+                            "61": {
+                                "type": 61,
+                                "w": 768,
+                                "h": 432,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h6093t61.jpg"
+                            },
+                            "62": {
+                                "type": 62,
+                                "w": 1648,
+                                "h": 1030,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h95d3t62.jpg"
+                            },
+                            "64": {
+                                "type": 64,
+                                "w": 824,
+                                "h": 515,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h51d7t64.jpg"
+                            },
+                            "65": {
+                                "type": 65,
+                                "w": 592,
+                                "h": 370,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540hdd4et65.jpg"
+                            },
+                            "66": {
+                                "type": 66,
+                                "w": 296,
+                                "h": 185,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h4248t66.jpg"
+                            },
+                            "67": {
+                                "type": 67,
+                                "w": 168,
+                                "h": 168,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h2298t67.jpg"
+                            },
+                            "68": {
+                                "type": 68,
+                                "w": 84,
+                                "h": 84,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h2366t68.jpg"
+                            },
+                            "69": {
+                                "type": 69,
+                                "w": 1568,
+                                "h": 980,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h0d9at69.jpg"
+                            },
+                            "70": {
+                                "type": 70,
+                                "w": 784,
+                                "h": 490,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h62act70.jpg"
+                            },
+                            "71": {
+                                "type": 71,
+                                "w": 2032,
+                                "h": 1270,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540h661at71.jpg"
+                            },
+                            "72": {
+                                "type": 72,
+                                "w": 1016,
+                                "h": 635,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540hf954t72.jpg"
+                            },
+                            "80": {
+                                "type": 80,
+                                "w": 400,
+                                "h": 600,
+                                "url": "https://s.err.ee/photo/crop/2024/05/17/2400540hc5b6t80.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/05/17/2400540hd692.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/05/17/2400540hd692.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 579719,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1514903762,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Eesti lood 2017",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Pressimaterjalid",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "1": {
+                                "type": 1,
+                                "w": 120,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h257at1.jpg"
+                            },
+                            "2": {
+                                "type": 2,
+                                "w": 1920,
+                                "h": 1080,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hf199t2.jpg"
+                            },
+                            "6": {
+                                "type": 6,
+                                "w": 800,
+                                "h": 500,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h91aat6.jpg"
+                            },
+                            "8": {
+                                "type": 8,
+                                "w": 400,
+                                "h": 250,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h8cfbt8.jpg"
+                            },
+                            "11": {
+                                "type": 11,
+                                "w": 96,
+                                "h": 60,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719haae8t11.jpg"
+                            },
+                            "15": {
+                                "type": 15,
+                                "w": 800,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h5cf3t15.jpg"
+                            },
+                            "16": {
+                                "type": 16,
+                                "w": 1000,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h8fact16.jpg"
+                            },
+                            "22": {
+                                "type": 22,
+                                "w": 312,
+                                "h": 195,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h26a0t22.jpg"
+                            },
+                            "24": {
+                                "type": 24,
+                                "w": 672,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h41f3t24.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h91b5t26.jpg"
+                            },
+                            "37": {
+                                "type": 37,
+                                "w": 1440,
+                                "h": 0,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha4e7t37.jpg"
+                            },
+                            "44": {
+                                "type": 44,
+                                "w": 200,
+                                "h": 200,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hd57et44.jpg"
+                            },
+                            "46": {
+                                "type": 46,
+                                "w": 1920,
+                                "h": 1920,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h3b0bt46.jpg"
+                            },
+                            "47": {
+                                "type": 47,
+                                "w": 1920,
+                                "h": 1440,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h6da6t47.jpg"
+                            },
+                            "48": {
+                                "type": 48,
+                                "w": 1440,
+                                "h": 810,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h0a94t48.jpg"
+                            },
+                            "49": {
+                                "type": 49,
+                                "w": 0,
+                                "h": 80,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha970t49.jpg"
+                            },
+                            "52": {
+                                "type": 52,
+                                "w": 32,
+                                "h": 16,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h4d11t52.jpg"
+                            },
+                            "60": {
+                                "type": 60,
+                                "w": 180,
+                                "h": 270,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h9fcat60.jpg"
+                            },
+                            "61": {
+                                "type": 61,
+                                "w": 768,
+                                "h": 432,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h66eat61.jpg"
+                            },
+                            "62": {
+                                "type": 62,
+                                "w": 1648,
+                                "h": 1030,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h0211t62.jpg"
+                            },
+                            "64": {
+                                "type": 64,
+                                "w": 824,
+                                "h": 515,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h69bft64.jpg"
+                            },
+                            "65": {
+                                "type": 65,
+                                "w": 592,
+                                "h": 370,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hae77t65.jpg"
+                            },
+                            "66": {
+                                "type": 66,
+                                "w": 296,
+                                "h": 185,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719he462t66.jpg"
+                            },
+                            "67": {
+                                "type": 67,
+                                "w": 168,
+                                "h": 168,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hcff1t67.jpg"
+                            },
+                            "68": {
+                                "type": 68,
+                                "w": 84,
+                                "h": 84,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h1929t68.jpg"
+                            },
+                            "69": {
+                                "type": 69,
+                                "w": 1568,
+                                "h": 980,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719ha99dt69.jpg"
+                            },
+                            "70": {
+                                "type": 70,
+                                "w": 784,
+                                "h": 490,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719hc0dbt70.jpg"
+                            },
+                            "71": {
+                                "type": 71,
+                                "w": 2032,
+                                "h": 1270,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h6f76t71.jpg"
+                            },
+                            "72": {
+                                "type": 72,
+                                "w": 1016,
+                                "h": 635,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h41cbt72.jpg"
+                            },
+                            "80": {
+                                "type": 80,
+                                "w": 400,
+                                "h": 600,
+                                "url": "https://s.err.ee/photo/crop/2018/01/02/579719h95dbt80.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2018/01/02/579719he74a.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2018/01/02/579719he74a.jpg"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": [],
+                "relatedRadiomanIds": []
+            },
+            "statsHeading": "Eesti lood H23 O8",
+            "statsSeriesTitle": "Eesti lood",
+            "rootCategoryId": 3905,
+            "canonicalUrl": "https://jupiter.err.ee/1609911839",
+            "fancyUrl": "eesti-lood",
+            "anotherDomainContent": true,
+            "created": 1768491000,
+            "publicStart": 1768491000,
+            "formatedTimes": {
+                "created": "15.01 17:30",
+                "updated": "15.01 17:30",
+                "publicStart": "15.01 17:30",
+                "dayShortName": "P",
+                "scheduleStart": "01.02 20:30",
+                "shortScheduleStart": "01.02",
+                "programStart": "01.02"
+            },
+            "clips": [],
+            "vodSiteContent": "video",
+            "vodSiteDomain": "jupiter.err.ee",
+            "vodSiteUrl": "https://jupiter.err.ee/1609911839/eesti-lood",
+            "relatedRadiomanIds": [],
+            "medias": [
+                {
+                    "id": 2425420,
+                    "ord": 0,
+                    "type": "video",
+                    "headingEt": "UUS! Eesti lood: \u00c4ra sega, ma m\u00f5tlen!",
+                    "headingRu": "",
+                    "headingEn": "",
+                    "podcastUrl": "",
+                    "bodyEt": "Tartu. V\u00e4ike \u00fclikoolilinn p\u00f5hjapoolkeral. Igal argip\u00e4eval peale t\u00f6\u00f6p\u00e4eva l\u00f5ppu alustavad paljud selle linna asukad selgesuunalisi liikumisi. M\u00f5\u00f5detud tempoga. \u00c4\u00e4rmise kindlameelsusega. Nad kogunevad keldrites, k\u00f5rtsides, baarides, restoranides, vinoteekides, j\u00f5elaevadel. Igal \u00f5htul on nad kuskil linnapeal. Tegevuses. Nad on m\u00e4lum\u00e4ngurid. \u00d5htuh\u00e4maruse valitsejad. Silja, Toivo ja Toomas on andnud oma k\u00e4e m\u00e4lum\u00e4ngule. Mis juhtub kui meie tegelased \u00fches ruumis kokku saavad? Kui palju nad teavad? Re\u017eii ja stsenaarium Andres Keil ja Jaak Kilmi. Operaatorid Jaak Kilmi, Aleksandr Heifets, Aivo Rannik, Alis M\u00e4esalu, Hans Joosep Tamme. Tootja  Pimik.",
+                    "bodyEn": "",
+                    "bodyRu": "",
+                    "embedDisabled": 0,
+                    "publicEnd": 0,
+                    "mediaRadiomanId": 0,
+                    "photoId": 0,
+                    "ld": 0,
+                    "sd": 1,
+                    "hd": 1,
+                    "fhd": 1,
+                    "4k": 0,
+                    "folder": "vod",
+                    "mediaHash": "062087873c0a2ba629cedca517747744",
+                    "skd": "",
+                    "jwt": null,
+                    "file": "2025-001721-0255_0002_XHD_EESTI-LOOD_ARA-SEGA-MA-MOTLEN_ERR.mp4",
+                    "version": 1,
+                    "filename": "2025-001721-0255_0002_XHD_EESTI-LOOD_ARA-SEGA-MA-MOTLEN_ERR.mp4",
+                    "licenseServerUrl": {
+                        "playReady": "https://drm-playready-licensing.axprod.net/AcquireLicense",
+                        "widevine": "https://drm-widevine-licensing.axprod.net/AcquireLicense",
+                        "fairPlay": "https://drm-fairplay-licensing.axprod.net/AcquireLicense"
+                    },
+                    "cacheIndex": 0,
+                    "versionId": 11298560410,
+                    "isPg": false,
+                    "mediaInfo": {
+                        "aspectRatio": "16:9",
+                        "duration": "1711"
+                    },
+                    "src": {
+                        "id": 2425420,
+                        "ratio": "16:9",
+                        "hls2": "//vod.err.ee/hls/vod/062087873c0a2ba629cedca517747744/2/v/master.m3u8",
+                        "hls": "//vod.err.ee/hls/vod/062087873c0a2ba629cedca517747744/2/v/master.m3u8",
+                        "file": "//vod.err.ee/file/vod/062087873c0a2ba629cedca517747744.mp4",
+                        "hlsNew": "//vod.err.ee/hls/vod/062087873c0a2ba629cedca517747744/2/v/master.m3u8",
+                        "dashNew": "//vod.err.ee/dash/vod/062087873c0a2ba629cedca517747744/2/v/manifest.mpd",
+                        "dash": "//vod.err.ee/dash/vod/062087873c0a2ba629cedca517747744/2/v/manifest.mpd",
+                        "hlsNoSub": "//vod.err.ee/hls/vod/062087873c0a2ba629cedca517747744/2/v/nosub/master.m3u8",
+                        "dashNoSub": "//vod.err.ee/dash/vod/062087873c0a2ba629cedca517747744/2/v/nosub/manifest.mpd"
+                    },
+                    "mediaId": "062087873c0a2ba629cedca517747744",
+                    "periods": [
+                        {
+                            "publicStart": 1769925600,
+                            "publicEnd": 10384468210,
+                            "vodReqId": 0
+                        },
+                        {
+                            "publicStart": 1769972210,
+                            "publicEnd": 10409885810,
+                            "vodReqId": 11302008110
+                        },
+                        {
+                            "publicStart": 1770562661,
+                            "publicEnd": 10410476261,
+                            "vodReqId": 11305485959
+                        }
+                    ],
+                    "catchupDays": 99991,
+                    "restrictions": {
+                        "drm": false,
+                        "geoBlock": false
+                    },
+                    "subtitles": [
+                        {
+                            "id": 0,
+                            "subId": 411205,
+                            "name": "eesti",
+                            "srclang": "VA",
+                            "version": 1,
+                            "exported": 1,
+                            "src": "https://services.err.ee/subtitles/file/411205/411205_VA.vtt",
+                            "filename": "411205_VA.vtt"
+                        }
+                    ],
+                    "photos": []
+                }
+            ],
+            "galleries": [],
+            "polls": [],
+            "druidStats": {
+                "content": {
+                    "contentId": 1609911839,
+                    "rootContentId": 1038302,
+                    "progId": 11137513799,
+                    "contentType": "episode",
+                    "heading": "Eesti lood",
+                    "seriesHeading": "Eesti lood",
+                    "statsHeading": "Eesti lood H23 O8",
+                    "country": "Eesti",
+                    "year": "2025"
+                },
+                "tx": [],
+                "media": {
+                    "mediaId": 2425420,
+                    "mediaType": "video",
+                    "mediaFile": "2025-001721-0255_0002_XHD_EESTI-LOOD_ARA-SEGA-MA-MOTLEN_ERR.mp4",
+                    "mediaFolder": "vod"
+                }
+            },
+            "makers": [
+                {
+                    "typeId": 17,
+                    "type": "Produtsent",
+                    "name": "Jaak Kilmi"
+                },
+                {
+                    "typeId": 7,
+                    "type": "Esinejad",
+                    "name": "Toomas Kiho"
+                },
+                {
+                    "typeId": 7,
+                    "type": "Esinejad",
+                    "name": "Toivo Kreek"
+                },
+                {
+                    "typeId": 7,
+                    "type": "Esinejad",
+                    "name": "Silja Paavle"
+                },
+                {
+                    "typeId": 7,
+                    "type": "Esinejad",
+                    "name": "Taivo Rist"
+                },
+                {
+                    "typeId": 7,
+                    "type": "Esinejad",
+                    "name": "Martti Suurorg"
+                },
+                {
+                    "typeId": 10,
+                    "type": "Re\u017eiss\u00f6\u00f6r",
+                    "name": "Andres Keil"
+                }
+            ],
+            "bodyMedias": [],
+            "bodyTrustedHtmls": [],
+            "bodyPhotos": [],
+            "bodyGalleries": []
+        },
+        "seasonList": {
+            "type": "seasonal",
+            "contentOrder": "desc",
+            "items": [
+                {
+                    "id": 23,
+                    "name": "23",
+                    "url": "/1609911839/eesti-lood",
+                    "firstContentId": 1609911839,
+                    "contents": [
+                        {
+                            "id": 1609911839,
+                            "heading": "Eesti lood",
+                            "subHeading": "\u00c4ra sega, ma m\u00f5tlen!",
+                            "scheduleStart": 1769970600,
+                            "publicStart": 1768491000,
+                            "updated": 1768491000,
+                            "primaryCategoryId": 4135,
+                            "parentContentPath": "[1038302]",
+                            "season": 23,
+                            "episode": 8,
+                            "type": "episode",
+                            "photos": [
+                                {
+                                    "id": 3157588,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1768808507,
+                                    "version": 1,
+                                    "format": "png",
+                                    "captionEt": "Eesti lood. \u00c4ra sega, ma m\u00f5tlen!",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8af1t50.png"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h0c57t34.png"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/19/3157588h98e4.png",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/19/3157588h98e4.png"
+                                }
+                            ],
+                            "horizontalPhotos": [
+                                {
+                                    "id": 3157588,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1768808507,
+                                    "version": 1,
+                                    "format": "png",
+                                    "captionEt": "Eesti lood. \u00c4ra sega, ma m\u00f5tlen!",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h8af1t50.png"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157588h0c57t34.png"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/19/3157588h98e4.png",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/19/3157588h98e4.png"
+                                }
+                            ],
+                            "verticalPhotos": [
+                                {
+                                    "id": 3165668,
+                                    "ord": 0,
+                                    "type": 1,
+                                    "created": 1769431818,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. \u00c4ra sega, ma m\u00f5tlen!",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h1811t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165668h6b93t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/26/3165668ha018.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/26/3165668ha018.jpg"
+                                }
+                            ],
+                            "horizontalPoster": [],
+                            "heroImage": [
+                                {
+                                    "id": 3157591,
+                                    "ord": 0,
+                                    "type": 3,
+                                    "created": 1768808532,
+                                    "version": 1,
+                                    "format": "png",
+                                    "captionEt": "Eesti lood. \u00c4ra sega, ma m\u00f5tlen!",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591h3c1bt50.png"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3157591hb6fft34.png"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/19/3157591h75b2.png",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/19/3157591h75b2.png"
+                                }
+                            ],
+                            "squarePhotos": [],
+                            "primaryCategory": {
+                                "id": 4135,
+                                "name": "Saated",
+                                "lead": "",
+                                "parentId": 4133,
+                                "passive": 0,
+                                "lft": 2889,
+                                "rgt": 2940,
+                                "url": "v-saated",
+                                "commenting": 2,
+                                "musicStyle": 1,
+                                "depth": 2,
+                                "isPodcast": 0,
+                                "radiomanId": "",
+                                "idec": "000000",
+                                "allowContentPhoto": 1,
+                                "contentVisible": 0,
+                                "type": 1,
+                                "eMail": "",
+                                "color": "#000000",
+                                "newsSiteUrl": "",
+                                "postToSocialmedia": 0,
+                                "disableScanpix": 0,
+                                "rootCategoryId": 3905,
+                                "relativePath": "Jupiter > Video > Saated",
+                                "domain": "jupiter.err.ee",
+                                "domainType": "vod",
+                                "springId": null,
+                                "analyticsId": "UA-21111330-48",
+                                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                                "photoId": "2350764",
+                                "coverPhotoId": null,
+                                "coverPhotoUrl": null,
+                                "fullCoverPhoto": null,
+                                "backgroundPhotoId": null,
+                                "lang": "1",
+                                "host": null,
+                                "slogan": null
+                            },
+                            "rootCategoryId": 3905,
+                            "url": "https://jupiter.err.ee/1609911839/eesti-lood",
+                            "canonicalUrl": "https://jupiter.err.ee/1609911839",
+                            "fancyUrl": "eesti-lood",
+                            "anotherDomainContent": true,
+                            "catchupDays": 99991,
+                            "active": true
+                        },
+                        {
+                            "id": 1609890275,
+                            "heading": "Eesti lood",
+                            "subHeading": "Kadunud t\u00e4hed",
+                            "scheduleStart": 1768156200,
+                            "publicStart": 1766136000,
+                            "updated": 1767691800,
+                            "primaryCategoryId": 4135,
+                            "parentContentPath": "[1038302]",
+                            "season": 23,
+                            "episode": 7,
+                            "type": "episode",
+                            "photos": [
+                                {
+                                    "id": 3146389,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1767698072,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Kadunud t\u00e4hed",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/06/3146389h0ceet50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/06/3146389h7fa5t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/06/3146389h9fda.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/06/3146389h9fda.jpg"
+                                }
+                            ],
+                            "horizontalPhotos": [
+                                {
+                                    "id": 3146389,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1767698072,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Kadunud t\u00e4hed",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/06/3146389h0ceet50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/06/3146389h7fa5t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/06/3146389h9fda.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/06/3146389h9fda.jpg"
+                                }
+                            ],
+                            "verticalPhotos": [
+                                {
+                                    "id": 3147193,
+                                    "ord": 0,
+                                    "type": 1,
+                                    "created": 1767775691,
+                                    "version": 0,
+                                    "format": "png",
+                                    "captionEt": "Eesti lood. Kadunud t\u00e4hed",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/07/3147193hf4d5t50.png"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/07/3147193h71c4t34.png"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/07/3147193h5070.png",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/07/3147193h5070.png"
+                                }
+                            ],
+                            "horizontalPoster": [],
+                            "heroImage": [
+                                {
+                                    "id": 3146392,
+                                    "ord": 0,
+                                    "type": 3,
+                                    "created": 1767698093,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Kadunud t\u00e4hed",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/06/3146392ha9e9t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/06/3146392h438at34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/06/3146392h42c0.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/06/3146392h42c0.jpg"
+                                }
+                            ],
+                            "squarePhotos": [],
+                            "primaryCategory": {
+                                "id": 4135,
+                                "name": "Saated",
+                                "lead": "",
+                                "parentId": 4133,
+                                "passive": 0,
+                                "lft": 2889,
+                                "rgt": 2940,
+                                "url": "v-saated",
+                                "commenting": 2,
+                                "musicStyle": 1,
+                                "depth": 2,
+                                "isPodcast": 0,
+                                "radiomanId": "",
+                                "idec": "000000",
+                                "allowContentPhoto": 1,
+                                "contentVisible": 0,
+                                "type": 1,
+                                "eMail": "",
+                                "color": "#000000",
+                                "newsSiteUrl": "",
+                                "postToSocialmedia": 0,
+                                "disableScanpix": 0,
+                                "rootCategoryId": 3905,
+                                "relativePath": "Jupiter > Video > Saated",
+                                "domain": "jupiter.err.ee",
+                                "domainType": "vod",
+                                "springId": null,
+                                "analyticsId": "UA-21111330-48",
+                                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                                "photoId": "2350764",
+                                "coverPhotoId": null,
+                                "coverPhotoUrl": null,
+                                "fullCoverPhoto": null,
+                                "backgroundPhotoId": null,
+                                "lang": "1",
+                                "host": null,
+                                "slogan": null
+                            },
+                            "rootCategoryId": 3905,
+                            "url": "https://jupiter.err.ee/1609890275/eesti-lood",
+                            "canonicalUrl": "https://jupiter.err.ee/1609890275",
+                            "fancyUrl": "eesti-lood",
+                            "anotherDomainContent": true,
+                            "catchupDays": 99965
+                        },
+                        {
+                            "id": 1609904699,
+                            "heading": "Eesti lood",
+                            "subHeading": "Narva Veneetsia",
+                            "scheduleStart": 1770908700,
+                            "publicStart": 1767878400,
+                            "updated": 1767878400,
+                            "primaryCategoryId": 4135,
+                            "parentContentPath": "[1038302]",
+                            "season": 23,
+                            "episode": 5,
+                            "type": "episode",
+                            "photos": [
+                                {
+                                    "id": 3152986,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1768292177,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Narva Veneetsia",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/13/3152986h9b5et50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/13/3152986he5a6t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/13/3152986he891.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/13/3152986he891.jpg"
+                                }
+                            ],
+                            "horizontalPhotos": [
+                                {
+                                    "id": 3152986,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1768292177,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Narva Veneetsia",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/13/3152986h9b5et50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/13/3152986he5a6t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/13/3152986he891.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/13/3152986he891.jpg"
+                                }
+                            ],
+                            "verticalPhotos": [
+                                {
+                                    "id": 3159268,
+                                    "ord": 0,
+                                    "type": 1,
+                                    "created": 1768854048,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Narva Veneetsia",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3159268ha725t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/19/3159268h60f3t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/19/3159268h274b.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/19/3159268h274b.jpg"
+                                }
+                            ],
+                            "horizontalPoster": [],
+                            "heroImage": [
+                                {
+                                    "id": 3152983,
+                                    "ord": 0,
+                                    "type": 3,
+                                    "created": 1768292169,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Narva Veneetsia",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/13/3152983h7839t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/13/3152983h6c13t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/13/3152983h2285.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/13/3152983h2285.jpg"
+                                }
+                            ],
+                            "squarePhotos": [],
+                            "primaryCategory": {
+                                "id": 4135,
+                                "name": "Saated",
+                                "lead": "",
+                                "parentId": 4133,
+                                "passive": 0,
+                                "lft": 2889,
+                                "rgt": 2940,
+                                "url": "v-saated",
+                                "commenting": 2,
+                                "musicStyle": 1,
+                                "depth": 2,
+                                "isPodcast": 0,
+                                "radiomanId": "",
+                                "idec": "000000",
+                                "allowContentPhoto": 1,
+                                "contentVisible": 0,
+                                "type": 1,
+                                "eMail": "",
+                                "color": "#000000",
+                                "newsSiteUrl": "",
+                                "postToSocialmedia": 0,
+                                "disableScanpix": 0,
+                                "rootCategoryId": 3905,
+                                "relativePath": "Jupiter > Video > Saated",
+                                "domain": "jupiter.err.ee",
+                                "domainType": "vod",
+                                "springId": null,
+                                "analyticsId": "UA-21111330-48",
+                                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                                "photoId": "2350764",
+                                "coverPhotoId": null,
+                                "coverPhotoUrl": null,
+                                "fullCoverPhoto": null,
+                                "backgroundPhotoId": null,
+                                "lang": "1",
+                                "host": null,
+                                "slogan": null
+                            },
+                            "rootCategoryId": 3905,
+                            "url": "https://jupiter.err.ee/1609904699/eesti-lood",
+                            "canonicalUrl": "https://jupiter.err.ee/1609904699",
+                            "fancyUrl": "eesti-lood",
+                            "anotherDomainContent": true,
+                            "catchupDays": 99995
+                        },
+                        {
+                            "id": 1609918840,
+                            "heading": "Eesti lood",
+                            "subHeading": "Meie",
+                            "scheduleStart": 1771498800,
+                            "publicStart": 1769116800,
+                            "updated": 1769416200,
+                            "primaryCategoryId": 4135,
+                            "parentContentPath": "[1038302]",
+                            "season": 23,
+                            "episode": 3,
+                            "type": "episode",
+                            "photos": [
+                                {
+                                    "id": 3165368,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1769417203,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Meie",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165368h7aa0t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165368heb30t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/26/3165368h8911.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/26/3165368h8911.jpg"
+                                }
+                            ],
+                            "horizontalPhotos": [
+                                {
+                                    "id": 3165368,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1769417203,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Meie",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165368h7aa0t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165368heb30t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/26/3165368h8911.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/26/3165368h8911.jpg"
+                                }
+                            ],
+                            "verticalPhotos": [
+                                {
+                                    "id": 3177377,
+                                    "ord": 0,
+                                    "type": 1,
+                                    "created": 1770104260,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Meie",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/03/3177377h109at50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/03/3177377h7859t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/02/03/3177377ha956.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/02/03/3177377ha956.jpg"
+                                }
+                            ],
+                            "horizontalPoster": [],
+                            "heroImage": [
+                                {
+                                    "id": 3165377,
+                                    "ord": 0,
+                                    "type": 3,
+                                    "created": 1769417282,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Meie",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165377h9124t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/26/3165377hdb69t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/26/3165377h80b8.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/26/3165377h80b8.jpg"
+                                }
+                            ],
+                            "squarePhotos": [],
+                            "primaryCategory": {
+                                "id": 4135,
+                                "name": "Saated",
+                                "lead": "",
+                                "parentId": 4133,
+                                "passive": 0,
+                                "lft": 2889,
+                                "rgt": 2940,
+                                "url": "v-saated",
+                                "commenting": 2,
+                                "musicStyle": 1,
+                                "depth": 2,
+                                "isPodcast": 0,
+                                "radiomanId": "",
+                                "idec": "000000",
+                                "allowContentPhoto": 1,
+                                "contentVisible": 0,
+                                "type": 1,
+                                "eMail": "",
+                                "color": "#000000",
+                                "newsSiteUrl": "",
+                                "postToSocialmedia": 0,
+                                "disableScanpix": 0,
+                                "rootCategoryId": 3905,
+                                "relativePath": "Jupiter > Video > Saated",
+                                "domain": "jupiter.err.ee",
+                                "domainType": "vod",
+                                "springId": null,
+                                "analyticsId": "UA-21111330-48",
+                                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                                "photoId": "2350764",
+                                "coverPhotoId": null,
+                                "coverPhotoUrl": null,
+                                "fullCoverPhoto": null,
+                                "backgroundPhotoId": null,
+                                "lang": "1",
+                                "host": null,
+                                "slogan": null
+                            },
+                            "rootCategoryId": 3905,
+                            "url": "https://jupiter.err.ee/1609918840/eesti-lood",
+                            "canonicalUrl": "https://jupiter.err.ee/1609918840",
+                            "fancyUrl": "eesti-lood",
+                            "anotherDomainContent": true,
+                            "catchupDays": 100005
+                        },
+                        {
+                            "id": 1609891613,
+                            "heading": "Eesti lood",
+                            "subHeading": "Maarjamaa salatoimikud",
+                            "scheduleStart": 1768761000,
+                            "publicStart": 1766244000,
+                            "updated": 1767878400,
+                            "primaryCategoryId": 4135,
+                            "parentContentPath": "[1038302]",
+                            "season": 23,
+                            "episode": 2,
+                            "type": "episode",
+                            "photos": [
+                                {
+                                    "id": 3151357,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1768203212,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Maarjamaa salatoimikud",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3151357h90c4t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3151357h8edbt34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/12/3151357h7fb5.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/12/3151357h7fb5.jpg"
+                                }
+                            ],
+                            "horizontalPhotos": [
+                                {
+                                    "id": 3151357,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1768203212,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Maarjamaa salatoimikud",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3151357h90c4t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3151357h8edbt34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/12/3151357h7fb5.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/12/3151357h7fb5.jpg"
+                                }
+                            ],
+                            "verticalPhotos": [
+                                {
+                                    "id": 3152221,
+                                    "ord": 0,
+                                    "type": 1,
+                                    "created": 1768228215,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Maarjamaa salatoimikud",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3152221hb304t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3152221hef5bt34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/12/3152221hb157.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/12/3152221hb157.jpg"
+                                }
+                            ],
+                            "horizontalPoster": [],
+                            "heroImage": [
+                                {
+                                    "id": 3151360,
+                                    "ord": 0,
+                                    "type": 3,
+                                    "created": 1768203212,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Maarjamaa salatoimikud",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3151360h9053t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/01/12/3151360hd6fct34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/01/12/3151360h9c8c.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/01/12/3151360h9c8c.jpg"
+                                }
+                            ],
+                            "squarePhotos": [],
+                            "primaryCategory": {
+                                "id": 4135,
+                                "name": "Saated",
+                                "lead": "",
+                                "parentId": 4133,
+                                "passive": 0,
+                                "lft": 2889,
+                                "rgt": 2940,
+                                "url": "v-saated",
+                                "commenting": 2,
+                                "musicStyle": 1,
+                                "depth": 2,
+                                "isPodcast": 0,
+                                "radiomanId": "",
+                                "idec": "000000",
+                                "allowContentPhoto": 1,
+                                "contentVisible": 0,
+                                "type": 1,
+                                "eMail": "",
+                                "color": "#000000",
+                                "newsSiteUrl": "",
+                                "postToSocialmedia": 0,
+                                "disableScanpix": 0,
+                                "rootCategoryId": 3905,
+                                "relativePath": "Jupiter > Video > Saated",
+                                "domain": "jupiter.err.ee",
+                                "domainType": "vod",
+                                "springId": null,
+                                "analyticsId": "UA-21111330-48",
+                                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                                "photoId": "2350764",
+                                "coverPhotoId": null,
+                                "coverPhotoUrl": null,
+                                "fullCoverPhoto": null,
+                                "backgroundPhotoId": null,
+                                "lang": "1",
+                                "host": null,
+                                "slogan": null
+                            },
+                            "rootCategoryId": 3905,
+                            "url": "https://jupiter.err.ee/1609891613/eesti-lood",
+                            "canonicalUrl": "https://jupiter.err.ee/1609891613",
+                            "fancyUrl": "eesti-lood",
+                            "anotherDomainContent": true,
+                            "catchupDays": 99974
+                        },
+                        {
+                            "id": 1609926226,
+                            "heading": "Eesti lood",
+                            "subHeading": "Igavene v\u00f5itlus",
+                            "scheduleStart": 1771180200,
+                            "publicStart": 1769710800,
+                            "updated": 1769775000,
+                            "primaryCategoryId": 4135,
+                            "parentContentPath": "[1038302]",
+                            "season": 23,
+                            "episode": 1,
+                            "type": "episode",
+                            "photos": [
+                                {
+                                    "id": 3176303,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1770034683,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Igavene v\u00f5itlus",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/02/3176303haa50t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/02/3176303h1f19t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/02/02/3176303h3572.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/02/02/3176303h3572.jpg"
+                                }
+                            ],
+                            "horizontalPhotos": [
+                                {
+                                    "id": 3176303,
+                                    "ord": 0,
+                                    "type": 0,
+                                    "created": 1770034683,
+                                    "version": 1,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Igavene v\u00f5itlus",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/02/3176303haa50t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/02/3176303h1f19t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/02/02/3176303h3572.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/02/02/3176303h3572.jpg"
+                                }
+                            ],
+                            "verticalPhotos": [
+                                {
+                                    "id": 3193718,
+                                    "ord": 0,
+                                    "type": 1,
+                                    "created": 1770640863,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Igavene v\u00f5itlus",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/09/3193718hb100t50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/09/3193718h39ebt34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/02/09/3193718h8e92.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/02/09/3193718h8e92.jpg"
+                                }
+                            ],
+                            "horizontalPoster": [],
+                            "heroImage": [
+                                {
+                                    "id": 3176306,
+                                    "ord": 0,
+                                    "type": 3,
+                                    "created": 1770034885,
+                                    "version": 0,
+                                    "format": "jpg",
+                                    "captionEt": "Eesti lood. Igavene v\u00f5itlus",
+                                    "captionEn": "",
+                                    "captionRu": "",
+                                    "authorEt": "pressimaterjal",
+                                    "authorEn": "",
+                                    "authorRu": "",
+                                    "photoTypes": {
+                                        "50": {
+                                            "type": 50,
+                                            "w": 120,
+                                            "h": 75,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/02/3176306h910dt50.jpg"
+                                        },
+                                        "34": {
+                                            "type": 34,
+                                            "w": 324,
+                                            "h": 182,
+                                            "url": "https://s.err.ee/photo/crop/2026/02/02/3176306h0111t34.jpg"
+                                        }
+                                    },
+                                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2026/02/02/3176306h3cfe.jpg",
+                                    "photoUrlBase": "https://s.err.ee/photo/crop/2026/02/02/3176306h3cfe.jpg"
+                                }
+                            ],
+                            "squarePhotos": [],
+                            "primaryCategory": {
+                                "id": 4135,
+                                "name": "Saated",
+                                "lead": "",
+                                "parentId": 4133,
+                                "passive": 0,
+                                "lft": 2889,
+                                "rgt": 2940,
+                                "url": "v-saated",
+                                "commenting": 2,
+                                "musicStyle": 1,
+                                "depth": 2,
+                                "isPodcast": 0,
+                                "radiomanId": "",
+                                "idec": "000000",
+                                "allowContentPhoto": 1,
+                                "contentVisible": 0,
+                                "type": 1,
+                                "eMail": "",
+                                "color": "#000000",
+                                "newsSiteUrl": "",
+                                "postToSocialmedia": 0,
+                                "disableScanpix": 0,
+                                "rootCategoryId": 3905,
+                                "relativePath": "Jupiter > Video > Saated",
+                                "domain": "jupiter.err.ee",
+                                "domainType": "vod",
+                                "springId": null,
+                                "analyticsId": "UA-21111330-48",
+                                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                                "photoId": "2350764",
+                                "coverPhotoId": null,
+                                "coverPhotoUrl": null,
+                                "fullCoverPhoto": null,
+                                "backgroundPhotoId": null,
+                                "lang": "1",
+                                "host": null,
+                                "slogan": null
+                            },
+                            "rootCategoryId": 3905,
+                            "url": "https://jupiter.err.ee/1609926226/eesti-lood",
+                            "canonicalUrl": "https://jupiter.err.ee/1609926226",
+                            "fancyUrl": "eesti-lood",
+                            "anotherDomainContent": true,
+                            "catchupDays": 10003
+                        }
+                    ],
+                    "active": true
+                },
+                {
+                    "id": 22,
+                    "name": "22",
+                    "url": "/1609578101/eesti-lood",
+                    "firstContentId": 1609578101
+                },
+                {
+                    "id": 21,
+                    "name": "21",
+                    "url": "/1609247363/eesti-lood",
+                    "firstContentId": 1609247363
+                },
+                {
+                    "id": 20,
+                    "name": "20",
+                    "url": "/1608887762/eesti-lood",
+                    "firstContentId": 1608887762
+                },
+                {
+                    "id": 19,
+                    "name": "19",
+                    "url": "/1608465371/eesti-lood",
+                    "firstContentId": 1608465371
+                },
+                {
+                    "id": 18,
+                    "name": "18",
+                    "url": "/1608106438/eesti-lood",
+                    "firstContentId": 1608106438
+                },
+                {
+                    "id": 17,
+                    "name": "17",
+                    "url": "/1144706/eesti-lood",
+                    "firstContentId": 1144706
+                },
+                {
+                    "id": 16,
+                    "name": "16",
+                    "url": "/1139011/eesti-lood",
+                    "firstContentId": 1139011
+                },
+                {
+                    "id": 15,
+                    "name": "15",
+                    "url": "/1095576/eesti-lood",
+                    "firstContentId": 1095576
+                },
+                {
+                    "id": 14,
+                    "name": "14",
+                    "url": "/1608094900/eesti-lood",
+                    "firstContentId": 1608094900
+                },
+                {
+                    "id": 13,
+                    "name": "13",
+                    "url": "/1608094864/eesti-lood",
+                    "firstContentId": 1608094864
+                },
+                {
+                    "id": 12,
+                    "name": "12",
+                    "url": "/1608094846/eesti-lood",
+                    "firstContentId": 1608094846
+                },
+                {
+                    "id": 11,
+                    "name": "11",
+                    "url": "/1608094087/eesti-lood",
+                    "firstContentId": 1608094087
+                },
+                {
+                    "id": 10,
+                    "name": "10",
+                    "url": "/1608094084/eesti-lood",
+                    "firstContentId": 1608094084
+                },
+                {
+                    "id": 9,
+                    "name": "9",
+                    "url": "/1115902/eesti-lood",
+                    "firstContentId": 1115902
+                },
+                {
+                    "id": 8,
+                    "name": "8",
+                    "url": "/1608091795/eesti-lood",
+                    "firstContentId": 1608091795
+                },
+                {
+                    "id": 7,
+                    "name": "7",
+                    "url": "/974878/eesti-lood",
+                    "firstContentId": 974878
+                },
+                {
+                    "id": 6,
+                    "name": "6",
+                    "url": "/1116151/eesti-lood",
+                    "firstContentId": 1116151
+                },
+                {
+                    "id": 5,
+                    "name": "5",
+                    "url": "/1608091510/eesti-lood",
+                    "firstContentId": 1608091510
+                },
+                {
+                    "id": 4,
+                    "name": "4",
+                    "url": "/1123673/eesti-lood",
+                    "firstContentId": 1123673
+                },
+                {
+                    "id": 3,
+                    "name": "3",
+                    "url": "/1608089470/eesti-lood",
+                    "firstContentId": 1608089470
+                },
+                {
+                    "id": 2,
+                    "name": "2",
+                    "url": "/1608087808/eesti-lood",
+                    "firstContentId": 1608087808
+                },
+                {
+                    "id": 1,
+                    "name": "1",
+                    "url": "/1608086992/eesti-lood",
+                    "firstContentId": 1608086992
+                }
+            ]
+        },
+        "nextContent": [],
+        "futureContent": [],
+        "pageType": "series",
+        "category": [
+            {
+                "id": 4135,
+                "name": "Saated",
+                "lead": "",
+                "parentId": 4133,
+                "passive": 0,
+                "lft": 2889,
+                "rgt": 2940,
+                "url": "v-saated",
+                "commenting": 2,
+                "musicStyle": 1,
+                "depth": 2,
+                "isPodcast": 0,
+                "radiomanId": "",
+                "idec": "000000",
+                "allowContentPhoto": 1,
+                "contentVisible": 0,
+                "type": 1,
+                "eMail": "",
+                "color": "#000000",
+                "newsSiteUrl": "",
+                "postToSocialmedia": 0,
+                "disableScanpix": 0,
+                "rootCategoryId": 3905,
+                "relativePath": "Jupiter > Video > Saated",
+                "domain": "jupiter.err.ee",
+                "domainType": "vod",
+                "springId": null,
+                "analyticsId": "UA-21111330-48",
+                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                "photoId": "2350764",
+                "coverPhotoId": null,
+                "coverPhotoUrl": null,
+                "fullCoverPhoto": null,
+                "backgroundPhotoId": null,
+                "lang": "1",
+                "host": null,
+                "slogan": null,
+                "typologyPath": "jupiter/video/saated"
+            },
+            {
+                "id": 4437,
+                "name": "Dokumentaal",
+                "lead": "",
+                "parentId": 4137,
+                "passive": 0,
+                "lft": 2844,
+                "rgt": 2845,
+                "url": "dokumentaal",
+                "commenting": 2,
+                "musicStyle": 1,
+                "depth": 3,
+                "isPodcast": 0,
+                "radiomanId": "",
+                "idec": "000000",
+                "allowContentPhoto": 1,
+                "contentVisible": 0,
+                "type": 1,
+                "eMail": "",
+                "color": "#000000",
+                "newsSiteUrl": "",
+                "postToSocialmedia": 0,
+                "disableScanpix": 0,
+                "rootCategoryId": 3905,
+                "relativePath": "Jupiter > Video > Filmid > Dokumentaal",
+                "domain": "jupiter.err.ee",
+                "domainType": "vod",
+                "springId": null,
+                "analyticsId": "UA-21111330-48",
+                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                "photoId": "2350764",
+                "coverPhotoId": null,
+                "coverPhotoUrl": null,
+                "fullCoverPhoto": null,
+                "backgroundPhotoId": null,
+                "lang": "1",
+                "host": null,
+                "slogan": null,
+                "typologyPath": "jupiter/video/filmid/dokumentaal"
+            },
+            {
+                "id": 4507,
+                "name": "Elu ja inimesed",
+                "lead": "",
+                "parentId": 4498,
+                "passive": 0,
+                "lft": 2956,
+                "rgt": 2957,
+                "url": "elu-ja-inimesed",
+                "commenting": 2,
+                "musicStyle": 1,
+                "depth": 3,
+                "isPodcast": 0,
+                "radiomanId": "",
+                "idec": "000000",
+                "allowContentPhoto": 1,
+                "contentVisible": 0,
+                "type": 1,
+                "eMail": "",
+                "color": "#000000",
+                "newsSiteUrl": "",
+                "postToSocialmedia": 0,
+                "disableScanpix": 0,
+                "rootCategoryId": 3905,
+                "relativePath": "Jupiter > Video > Teemad > Elu ja inimesed",
+                "domain": "jupiter.err.ee",
+                "domainType": "vod",
+                "springId": null,
+                "analyticsId": "UA-21111330-48",
+                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                "photoId": "2350764",
+                "coverPhotoId": null,
+                "coverPhotoUrl": null,
+                "fullCoverPhoto": null,
+                "backgroundPhotoId": null,
+                "lang": "1",
+                "host": null,
+                "slogan": null,
+                "typologyPath": "jupiter/video/teemad/elu-ja-inimesed"
+            },
+            {
+                "id": 4739,
+                "name": "Io noored",
+                "lead": "",
+                "parentId": 4133,
+                "passive": 0,
+                "lft": 2873,
+                "rgt": 2874,
+                "url": "io",
+                "commenting": 2,
+                "musicStyle": 1,
+                "depth": 2,
+                "isPodcast": 0,
+                "radiomanId": "",
+                "idec": "000000",
+                "allowContentPhoto": 1,
+                "contentVisible": 0,
+                "type": 1,
+                "eMail": "",
+                "color": "#000000",
+                "newsSiteUrl": "",
+                "postToSocialmedia": 0,
+                "disableScanpix": 0,
+                "rootCategoryId": 3905,
+                "relativePath": "Jupiter > Video > Io noored",
+                "domain": "jupiter.err.ee",
+                "domainType": "vod",
+                "springId": null,
+                "analyticsId": "UA-21111330-48",
+                "gemiusId": "AouVH2NkiRVzr_axVodAk6Q9rkIu4g9AXwoOFpPj9Dn.v7",
+                "photoId": "1315226",
+                "coverPhotoId": null,
+                "coverPhotoUrl": null,
+                "fullCoverPhoto": null,
+                "backgroundPhotoId": null,
+                "lang": "1",
+                "host": null,
+                "slogan": null,
+                "typologyPath": "jupiter/video/io-noored"
+            }
+        ],
+        "categoryContents": []
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "apiVersion": "2.0",
+    "data": {
+        "items": [
+            {
+                "id": 556,
+                "parentId": 555,
+                "name": "Video",
+                "link": "/video",
+                "targetBlank": 0,
+                "passive": 0,
+                "primaryCategoryId": 0,
+                "kids_count": 7,
+                "kids": [
+                    {
+                        "id": 580,
+                        "parentId": 556,
+                        "name": "Otse",
+                        "link": "/telekava",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 1322,
+                        "parentId": 556,
+                        "name": "Sport",
+                        "link": "/sport",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 558,
+                        "parentId": 556,
+                        "name": "Saated",
+                        "link": "/v-saated",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 559,
+                        "parentId": 556,
+                        "name": "Sarjad",
+                        "link": "/sarjad",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 560,
+                        "parentId": 556,
+                        "name": "Filmid",
+                        "link": "/filmid",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 661,
+                        "parentId": 556,
+                        "name": "Io",
+                        "link": "/io",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 565,
+                        "parentId": 556,
+                        "name": "Raadioteater",
+                        "link": "/raadioteater",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    }
+                ]
+            },
+            {
+                "id": 557,
+                "parentId": 555,
+                "name": "Audio",
+                "link": "/audio",
+                "targetBlank": 0,
+                "passive": 0,
+                "primaryCategoryId": 0,
+                "kids_count": 4,
+                "kids": [
+                    {
+                        "id": 584,
+                        "parentId": 557,
+                        "name": "Otse",
+                        "link": "/raadiokava",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 596,
+                        "parentId": 557,
+                        "name": "Saated",
+                        "link": "/audio",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 594,
+                        "parentId": 557,
+                        "name": "Muusika",
+                        "link": "/muusika",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    },
+                    {
+                        "id": 564,
+                        "parentId": 557,
+                        "name": "Raadioteater",
+                        "link": "/raadioteater",
+                        "targetBlank": 0,
+                        "passive": 0,
+                        "primaryCategoryId": 0,
+                        "kids_count": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

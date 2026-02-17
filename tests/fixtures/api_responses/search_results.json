@@ -1,0 +1,2953 @@
+{
+    "video": {
+        "contents": [
+            {
+                "id": 1038444,
+                "updated": 1596464040,
+                "scheduleStart": 0,
+                "heading": "Osoon",
+                "primaryCategoryId": 4135,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 4135,
+                    "name": "Saated",
+                    "lead": "",
+                    "parentId": 4133,
+                    "passive": 0,
+                    "lft": 2889,
+                    "rgt": 2940,
+                    "url": "v-saated",
+                    "commenting": 2,
+                    "musicStyle": 1,
+                    "depth": 2,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 3905,
+                    "relativePath": "Jupiter > Video > Saated",
+                    "domain": "jupiter.err.ee",
+                    "domainType": "vod",
+                    "springId": null,
+                    "analyticsId": "UA-21111330-48",
+                    "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                    "photoId": "2350764",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 3905,
+                "url": "https://jupiter.err.ee/1038444/osoon",
+                "canonicalUrl": "https://jupiter.err.ee/1038444",
+                "fancyUrl": "osoon",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 2995887,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1756709521,
+                        "version": 2,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887hc50dt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887h63d0t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887h2326t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995887h37e3.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995887h37e3.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 2995836,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995836hcf0et17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995836hbca7t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995836h3581t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995836h820a.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995836h820a.jpg"
+                    },
+                    {
+                        "id": 2995839,
+                        "ord": 1,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995839hf2a2t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995839h3194t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995839h7828t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995839h845c.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995839h845c.jpg"
+                    },
+                    {
+                        "id": 2995842,
+                        "ord": 2,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995842h500et17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995842h21ddt26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995842h22cdt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995842haf37.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995842haf37.jpg"
+                    },
+                    {
+                        "id": 2995845,
+                        "ord": 3,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995845hde78t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995845hb142t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995845h09fet34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995845h0216.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995845h0216.jpg"
+                    },
+                    {
+                        "id": 2995848,
+                        "ord": 4,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995848hb17et17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995848hd985t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995848h7ff1t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995848h43a0.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995848h43a0.jpg"
+                    },
+                    {
+                        "id": 2995851,
+                        "ord": 5,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995851h45bft17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995851h0f19t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995851h12edt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995851h3066.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995851h3066.jpg"
+                    },
+                    {
+                        "id": 2995854,
+                        "ord": 6,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995854hcc04t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995854h4f02t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995854he668t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995854h6927.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995854h6927.jpg"
+                    },
+                    {
+                        "id": 2995857,
+                        "ord": 7,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995857heaa2t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995857h9cc8t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995857h6f1bt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995857hf4da.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995857hf4da.jpg"
+                    },
+                    {
+                        "id": 2995860,
+                        "ord": 8,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995860hef18t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995860h7ec0t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995860hb5c2t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995860h7431.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995860h7431.jpg"
+                    },
+                    {
+                        "id": 2995863,
+                        "ord": 9,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995863h6cd8t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995863h0c11t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995863hffbct34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995863h6fa0.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995863h6fa0.jpg"
+                    },
+                    {
+                        "id": 2995866,
+                        "ord": 10,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995866hd29et17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995866hc9ebt26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995866h8499t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995866h4700.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995866h4700.jpg"
+                    },
+                    {
+                        "id": 2995872,
+                        "ord": 11,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995872h4afdt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995872h1aa6t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995872hcaeet34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995872h5719.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995872h5719.jpg"
+                    },
+                    {
+                        "id": 2995878,
+                        "ord": 12,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995878h69f1t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995878hc492t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995878habact34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995878hca3e.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995878hca3e.jpg"
+                    },
+                    {
+                        "id": 2995893,
+                        "ord": 13,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995893h35f8t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995893h8611t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995893hffe9t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995893he864.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995893he864.jpg"
+                    },
+                    {
+                        "id": 2995887,
+                        "ord": 14,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 2,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887hc50dt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887h63d0t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887h2326t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995887h37e3.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995887h37e3.jpg"
+                    },
+                    {
+                        "id": 2995884,
+                        "ord": 15,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995884h6b5dt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995884h9254t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995884he68ft34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995884h8292.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995884h8292.jpg"
+                    },
+                    {
+                        "id": 2995881,
+                        "ord": 16,
+                        "type": 0,
+                        "created": 1756709521,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995881heb2ct17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995881h525dt26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995881hb5f5t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995881h0ea0.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995881h0ea0.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 2996049,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1756715464,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2996049he1d3t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2996049ha4b0t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2996049h4d50t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2996049h582f.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2996049h582f.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 2995887,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1756709521,
+                        "version": 2,
+                        "format": "jpg",
+                        "captionEt": "Osoon",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Ken M\u00fcrk/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887hc50dt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887h63d0t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/09/01/2995887h2326t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/09/01/2995887h37e3.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/09/01/2995887h37e3.jpg"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": []
+            },
+            {
+                "id": 1609669943,
+                "updated": 1745655600,
+                "scheduleStart": 1766845800,
+                "heading": "Osoon Timo Paloga Gr\u00f6\u00f6nimaal",
+                "primaryCategoryId": 3199,
+                "type": "movie",
+                "primaryCategory": {
+                    "id": 3199,
+                    "name": "ETV saated",
+                    "lead": "",
+                    "parentId": 3905,
+                    "passive": 0,
+                    "lft": 2706,
+                    "rgt": 2707,
+                    "url": "etv-kategooriata-saated",
+                    "commenting": 2,
+                    "musicStyle": 1,
+                    "depth": 1,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 3199,
+                    "relativePath": "Jupiter > ETV saated",
+                    "domain": "jupiter.err.ee",
+                    "domainType": "vod",
+                    "springId": null,
+                    "analyticsId": "UA-21111330-48",
+                    "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                    "photoId": "2350764",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 3905,
+                "url": "https://jupiter.err.ee/1609669943/osoon-timo-paloga-groonimaal",
+                "canonicalUrl": "https://jupiter.err.ee/1609669943",
+                "fancyUrl": "osoon-timo-paloga-groonimaal",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 2839595,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1745824393,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon Timo Paloga Gr\u00f6\u00f6nimaal",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Madis Reimund/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/04/28/2839595h7f08t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/04/28/2839595h42b8t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/04/28/2839595hffa8t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/04/28/2839595h66b0.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/04/28/2839595h66b0.jpg"
+                    }
+                ],
+                "horizontalPhotos": [],
+                "verticalPhotos": [
+                    {
+                        "id": 2843174,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1746020169,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Osoon Timo Paloga Gr\u00f6\u00f6nimaal",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/04/30/2843174heec9t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/04/30/2843174he590t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/04/30/2843174h0da9t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/04/30/2843174h062b.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/04/30/2843174h062b.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 2839595,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1745824393,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Osoon Timo Paloga Gr\u00f6\u00f6nimaal",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Madis Reimund/ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/04/28/2839595h7f08t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/04/28/2839595h42b8t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/04/28/2839595hffa8t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/04/28/2839595h66b0.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/04/28/2839595h66b0.jpg"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": []
+            },
+            {
+                "id": 1608195952,
+                "updated": 1619727600,
+                "scheduleStart": 0,
+                "heading": "Osoon: Virumaa veed puhtaks",
+                "primaryCategoryId": 4135,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 4135,
+                    "name": "Saated",
+                    "lead": "",
+                    "parentId": 4133,
+                    "passive": 0,
+                    "lft": 2889,
+                    "rgt": 2940,
+                    "url": "v-saated",
+                    "commenting": 2,
+                    "musicStyle": 1,
+                    "depth": 2,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 3905,
+                    "relativePath": "Jupiter > Video > Saated",
+                    "domain": "jupiter.err.ee",
+                    "domainType": "vod",
+                    "springId": null,
+                    "analyticsId": "UA-21111330-48",
+                    "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                    "photoId": "2350764",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 3905,
+                "url": "https://jupiter.err.ee/1608195952/osoon-virumaa-veed-puhtaks",
+                "canonicalUrl": "https://jupiter.err.ee/1608195952",
+                "fancyUrl": "osoon-virumaa-veed-puhtaks",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 838543,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1604660827,
+                        "version": 2,
+                        "format": "png",
+                        "captionEt": "Osoon. Virumaa veed puhtaks",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543hbdd1t17.png"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543hcf00t26.png"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543he955t34.png"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/11/06/838543h3513.png",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/11/06/838543h3513.png"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 838543,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1604660827,
+                        "version": 2,
+                        "format": "png",
+                        "captionEt": "Osoon. Virumaa veed puhtaks",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543hbdd1t17.png"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543hcf00t26.png"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543he955t34.png"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/11/06/838543h3513.png",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/11/06/838543h3513.png"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 2563129,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1727690891,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Osoon: Virumaa veed puhtaks",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/09/30/2563129hb812t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/09/30/2563129hda07t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/09/30/2563129hc4cct34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/09/30/2563129h3a35.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/09/30/2563129h3a35.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 838543,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1604660827,
+                        "version": 2,
+                        "format": "png",
+                        "captionEt": "Osoon. Virumaa veed puhtaks",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543hbdd1t17.png"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543hcf00t26.png"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/11/06/838543he955t34.png"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/11/06/838543h3513.png",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/11/06/838543h3513.png"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": []
+            },
+            {
+                "id": 1038632,
+                "updated": 1582149120,
+                "scheduleStart": 0,
+                "heading": "Heureka",
+                "primaryCategoryId": 4135,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 4135,
+                    "name": "Saated",
+                    "lead": "",
+                    "parentId": 4133,
+                    "passive": 0,
+                    "lft": 2889,
+                    "rgt": 2940,
+                    "url": "v-saated",
+                    "commenting": 2,
+                    "musicStyle": 1,
+                    "depth": 2,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 3905,
+                    "relativePath": "Jupiter > Video > Saated",
+                    "domain": "jupiter.err.ee",
+                    "domainType": "vod",
+                    "springId": null,
+                    "analyticsId": "UA-21111330-48",
+                    "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                    "photoId": "2350764",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 3905,
+                "url": "https://jupiter.err.ee/1038632/heureka",
+                "canonicalUrl": "https://jupiter.err.ee/1038632",
+                "fancyUrl": "heureka",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 761322,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1584094382,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Heureka",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322hef5bt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322h3e63t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322h0b3dt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/03/13/761322h88a1.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/03/13/761322h88a1.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 761322,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1584094382,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Heureka",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322hef5bt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322h3e63t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322h0b3dt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/03/13/761322h88a1.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/03/13/761322h88a1.jpg"
+                    },
+                    {
+                        "id": 575899,
+                        "ord": 1,
+                        "type": 0,
+                        "created": 1511855342,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Heureka 2, 11/16: Kuidas toimib liiklus?",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2017/11/28/575899hbf60t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2017/11/28/575899h1f0ft26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2017/11/28/575899hbc21t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2017/11/28/575899hb889.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2017/11/28/575899hb889.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 2778317,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1741871565,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Heureka",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2025/03/13/2778317h76aat17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2025/03/13/2778317h1e13t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2025/03/13/2778317hc37ct34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/03/13/2778317h248e.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2025/03/13/2778317h248e.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 761322,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1584094382,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Heureka",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322hef5bt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322h3e63t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/03/13/761322h0b3dt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/03/13/761322h88a1.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/03/13/761322h88a1.jpg"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": []
+            },
+            {
+                "id": 1038738,
+                "updated": 1582149120,
+                "scheduleStart": 0,
+                "heading": "NOVA",
+                "primaryCategoryId": 4384,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 4384,
+                    "name": "Lastesaated ja -sarjad",
+                    "lead": "",
+                    "parentId": 5146,
+                    "passive": 0,
+                    "lft": 3927,
+                    "rgt": 3928,
+                    "url": "lastesaated",
+                    "commenting": 2,
+                    "musicStyle": 1,
+                    "depth": 4,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 3592,
+                    "relativePath": "Lasteekraan > Vaata ja kuula > Video > Sarjad > Lastesaated ja -sarjad",
+                    "domain": "lasteekraan.err.ee",
+                    "domainType": "vod",
+                    "springId": "lastejaam",
+                    "analyticsId": "UA-21111330-47",
+                    "gemiusId": "nSBAtD7zs8FNquhFyZPxcLPoHUb_lzrQNZ5i4w_yqE7.K7",
+                    "photoId": null,
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 3592,
+                "url": "https://lasteekraan.err.ee/1038738/nova",
+                "canonicalUrl": "https://lasteekraan.err.ee/1038738",
+                "fancyUrl": "nova",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 2585473,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1729227361,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/18/2585473h1b2et17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/18/2585473hb5f5t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/18/2585473h5ee7t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/18/2585473hde03.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/18/2585473hde03.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 2536562,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1725602012,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "NOVA saatejuhid",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Kairit Leibold / ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/09/06/2536562h66a9t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/09/06/2536562h3d1et26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/09/06/2536562h76c6t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/09/06/2536562hcc2f.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/09/06/2536562hcc2f.jpg"
+                    },
+                    {
+                        "id": 2536565,
+                        "ord": 1,
+                        "type": 0,
+                        "created": 1725602012,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "NOVA saatejuhid",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Kairit Leibold / ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/09/06/2536565h4f74t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/09/06/2536565ha960t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/09/06/2536565h4af7t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/09/06/2536565h7714.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/09/06/2536565h7714.jpg"
+                    },
+                    {
+                        "id": 2544644,
+                        "ord": 2,
+                        "type": 0,
+                        "created": 1726213799,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Kairit Leibold / ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/09/13/2544644hbc53t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/09/13/2544644h64e8t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/09/13/2544644ha7a8t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/09/13/2544644h236a.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/09/13/2544644h236a.jpg"
+                    },
+                    {
+                        "id": 2544641,
+                        "ord": 3,
+                        "type": 0,
+                        "created": 1726213764,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Kairit Leibold / ERR",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/09/13/2544641hb7b9t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/09/13/2544641hb344t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/09/13/2544641hf83et34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/09/13/2544641h00bf.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/09/13/2544641h00bf.jpg"
+                    },
+                    {
+                        "id": 2565134,
+                        "ord": 4,
+                        "type": 0,
+                        "created": 1727790863,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565134he98bt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565134hbc1bt26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565134he8e0t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/01/2565134h6fc4.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/01/2565134h6fc4.jpg"
+                    },
+                    {
+                        "id": 2565131,
+                        "ord": 5,
+                        "type": 0,
+                        "created": 1727790863,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565131hd9b2t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565131h7618t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565131h0d8ft34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/01/2565131hc92d.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/01/2565131hc92d.jpg"
+                    },
+                    {
+                        "id": 2565086,
+                        "ord": 6,
+                        "type": 0,
+                        "created": 1727790810,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565086h25bdt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565086h344ft26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565086h5614t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/01/2565086hd461.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/01/2565086hd461.jpg"
+                    },
+                    {
+                        "id": 2565089,
+                        "ord": 7,
+                        "type": 0,
+                        "created": 1727790810,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565089hbd7bt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565089h0680t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565089h216dt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/01/2565089hf67d.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/01/2565089hf67d.jpg"
+                    },
+                    {
+                        "id": 2565092,
+                        "ord": 8,
+                        "type": 0,
+                        "created": 1727790810,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565092h00cat17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565092h75b1t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/01/2565092ha486t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/01/2565092hc6bb.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/01/2565092hc6bb.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 2534288,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1725436941,
+                        "version": 0,
+                        "format": "png",
+                        "captionEt": "NOVA poster",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/09/04/2534288hdedat17.png"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/09/04/2534288h4381t26.png"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/09/04/2534288h41d9t34.png"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/09/04/2534288h03bf.png",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/09/04/2534288h03bf.png"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 2585473,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1729227361,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "NOVA",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/18/2585473h1b2et17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/18/2585473hb5f5t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/18/2585473h5ee7t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/18/2585473hde03.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/18/2585473hde03.jpg"
+                    }
+                ],
+                "heroImage": [
+                    {
+                        "id": 2568667,
+                        "ord": 0,
+                        "type": 3,
+                        "created": 1728114604,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Nova saatejuhid",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Katriin Kr\u00fcnberg",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2024/10/05/2568667h5103t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2024/10/05/2568667hf869t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2024/10/05/2568667h4acet34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2024/10/05/2568667h1eaa.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2024/10/05/2568667h1eaa.jpg"
+                    }
+                ],
+                "squarePhotos": []
+            }
+        ],
+        "totalFound": 13,
+        "type": "Video"
+    },
+    "audio": {
+        "contents": [
+            {
+                "id": 1038084,
+                "updated": 1582149120,
+                "scheduleStart": 0,
+                "heading": "\u00d6koskoop",
+                "primaryCategoryId": 404,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 404,
+                    "name": "Vikerraadio",
+                    "lead": "",
+                    "parentId": 0,
+                    "passive": 0,
+                    "lft": 8691,
+                    "rgt": 9708,
+                    "url": "",
+                    "commenting": 1,
+                    "musicStyle": 1,
+                    "depth": 1,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 404,
+                    "relativePath": "Vikerraadio > Vikerraadio",
+                    "domain": "vikerraadio.err.ee",
+                    "domainType": "radio",
+                    "springId": "vikerraadio",
+                    "analyticsId": "UA-21111330-21",
+                    "gemiusId": "B7Xqlqcff9uooC9p5CHtQLQG353_cyNYNSBKfbcNvZD.l7",
+                    "photoId": "2160406",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 404,
+                "url": "https://vikerraadio.err.ee/1038084/okoskoop",
+                "canonicalUrl": "https://vikerraadio.err.ee/1038084",
+                "fancyUrl": "okoskoop",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 281684,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1403283763,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Laura Teder",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684hfde9t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684h33b7t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684haf14t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2014/06/20/281684h3bd5.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2014/06/20/281684h3bd5.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 281684,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1403283763,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Laura Teder",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684hfde9t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684h33b7t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684haf14t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2014/06/20/281684h3bd5.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2014/06/20/281684h3bd5.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 2089019,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1695642060,
+                        "version": 2,
+                        "format": "jpg",
+                        "captionEt": "\u00d6koskoop",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/09/25/2089019h5aebt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/09/25/2089019hcf83t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/09/25/2089019hbdd1t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/09/25/2089019h06f8.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/09/25/2089019h06f8.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 281684,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1403283763,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "Laura Teder",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684hfde9t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684h33b7t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2014/06/20/281684haf14t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2014/06/20/281684h3bd5.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2014/06/20/281684h3bd5.jpg"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": [
+                    {
+                        "id": 2149078,
+                        "ord": 0,
+                        "type": 4,
+                        "created": 1699892689,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "\u00d6koskoop",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/11/13/2149078h851dt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/11/13/2149078h5b90t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/11/13/2149078hd2a1t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/11/13/2149078h8823.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/11/13/2149078h8823.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 1037877,
+                "updated": 1582149120,
+                "scheduleStart": 0,
+                "heading": "Labor",
+                "primaryCategoryId": 404,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 404,
+                    "name": "Vikerraadio",
+                    "lead": "",
+                    "parentId": 0,
+                    "passive": 0,
+                    "lft": 8691,
+                    "rgt": 9708,
+                    "url": "",
+                    "commenting": 1,
+                    "musicStyle": 1,
+                    "depth": 1,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 404,
+                    "relativePath": "Vikerraadio > Vikerraadio",
+                    "domain": "vikerraadio.err.ee",
+                    "domainType": "radio",
+                    "springId": "vikerraadio",
+                    "analyticsId": "UA-21111330-21",
+                    "gemiusId": "B7Xqlqcff9uooC9p5CHtQLQG353_cyNYNSBKfbcNvZD.l7",
+                    "photoId": "2160406",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 404,
+                "url": "https://vikerraadio.err.ee/1037877/labor",
+                "canonicalUrl": "https://vikerraadio.err.ee/1037877",
+                "fancyUrl": "labor",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 482406,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1502709958,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Labor",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406he82at17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406h720et26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406h59b6t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2017/08/14/482406hfea3.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2017/08/14/482406hfea3.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 482406,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1502709958,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Labor",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406he82at17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406h720et26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406h59b6t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2017/08/14/482406hfea3.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2017/08/14/482406hfea3.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 1647913,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1665764188,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Labor",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2022/10/14/1647913hf396t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2022/10/14/1647913h69f1t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2022/10/14/1647913hf952t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2022/10/14/1647913h4dbd.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2022/10/14/1647913h4dbd.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 482406,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1502709958,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Labor",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406he82at17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406h720et26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2017/08/14/482406h59b6t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2017/08/14/482406hfea3.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2017/08/14/482406hfea3.jpg"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": [
+                    {
+                        "id": 2157550,
+                        "ord": 0,
+                        "type": 4,
+                        "created": 1700510831,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Labor",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/11/20/2157550h3500t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/11/20/2157550h7afdt26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/11/20/2157550ha8cct34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/11/20/2157550hac71.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/11/20/2157550hac71.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 1038104,
+                "updated": 1582149120,
+                "scheduleStart": 0,
+                "heading": "Delta",
+                "primaryCategoryId": 407,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 407,
+                    "name": "Klassikaraadio",
+                    "lead": "",
+                    "parentId": 0,
+                    "passive": 0,
+                    "lft": 3109,
+                    "rgt": 3702,
+                    "url": "",
+                    "commenting": 1,
+                    "musicStyle": 1,
+                    "depth": 1,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 407,
+                    "relativePath": "Klassikaraadio > Klassikaraadio",
+                    "domain": "klassikaraadio.err.ee",
+                    "domainType": "radio",
+                    "springId": "klassikaraadio",
+                    "analyticsId": "UA-21111330-22",
+                    "gemiusId": "By.q9qccf1tIWo7FDJl157QGfdn_cvsdNTYYDTdCQDb.c7",
+                    "photoId": "1987793",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 407,
+                "url": "https://klassikaraadio.err.ee/1038104/delta",
+                "canonicalUrl": "https://klassikaraadio.err.ee/1038104",
+                "fancyUrl": "delta",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 778378,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1589366886,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Delta",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778378h84b1t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778378h1ddft26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778378h987bt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/05/13/778378h05a5.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/05/13/778378h05a5.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 1988195,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1688628906,
+                        "version": 1,
+                        "format": "jpg",
+                        "captionEt": "Delta",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/07/06/1988195h349ct17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/07/06/1988195h32e1t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/07/06/1988195hffdft34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/07/06/1988195h3f8b.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/07/06/1988195h3f8b.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 778377,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1589366844,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Delta",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778377he14bt17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778377h6e0ct26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778377h5fa0t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/05/13/778377h919e.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/05/13/778377h919e.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 778378,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1589366886,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Delta",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778378h84b1t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778378h1ddft26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2020/05/13/778378h987bt34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2020/05/13/778378h05a5.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2020/05/13/778378h05a5.jpg"
+                    }
+                ],
+                "heroImage": [],
+                "squarePhotos": [
+                    {
+                        "id": 2157562,
+                        "ord": 0,
+                        "type": 4,
+                        "created": 1700511957,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Delta",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/11/20/2157562he5e2t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/11/20/2157562h00a0t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/11/20/2157562h9dd4t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/11/20/2157562hbe64.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/11/20/2157562hbe64.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 1037840,
+                "updated": 1582149120,
+                "scheduleStart": 0,
+                "heading": "Kajalood",
+                "primaryCategoryId": 404,
+                "type": "series",
+                "primaryCategory": {
+                    "id": 404,
+                    "name": "Vikerraadio",
+                    "lead": "",
+                    "parentId": 0,
+                    "passive": 0,
+                    "lft": 8691,
+                    "rgt": 9708,
+                    "url": "",
+                    "commenting": 1,
+                    "musicStyle": 1,
+                    "depth": 1,
+                    "isPodcast": 0,
+                    "radiomanId": "",
+                    "idec": "000000",
+                    "allowContentPhoto": 1,
+                    "contentVisible": 0,
+                    "type": 1,
+                    "eMail": "",
+                    "color": "#000000",
+                    "newsSiteUrl": "",
+                    "postToSocialmedia": 0,
+                    "disableScanpix": 0,
+                    "rootCategoryId": 404,
+                    "relativePath": "Vikerraadio > Vikerraadio",
+                    "domain": "vikerraadio.err.ee",
+                    "domainType": "radio",
+                    "springId": "vikerraadio",
+                    "analyticsId": "UA-21111330-21",
+                    "gemiusId": "B7Xqlqcff9uooC9p5CHtQLQG353_cyNYNSBKfbcNvZD.l7",
+                    "photoId": "2160406",
+                    "coverPhotoId": null,
+                    "coverPhotoUrl": null,
+                    "fullCoverPhoto": null,
+                    "backgroundPhotoId": null,
+                    "lang": "1",
+                    "host": null,
+                    "slogan": null
+                },
+                "rootCategoryId": 404,
+                "url": "https://vikerraadio.err.ee/1037840/kajalood",
+                "canonicalUrl": "https://vikerraadio.err.ee/1037840",
+                "fancyUrl": "kajalood",
+                "anotherDomainContent": true,
+                "photos": [
+                    {
+                        "id": 1280600,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1639661141,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Kaja K\u00e4rner",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "ERR/ Ken M\u00fcrk",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600hd898t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600h4beat26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600h86e4t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2021/12/16/1280600ha29b.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2021/12/16/1280600ha29b.jpg"
+                    }
+                ],
+                "horizontalPhotos": [
+                    {
+                        "id": 1280600,
+                        "ord": 0,
+                        "type": 0,
+                        "created": 1639661141,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Kaja K\u00e4rner",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "ERR/ Ken M\u00fcrk",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600hd898t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600h4beat26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600h86e4t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2021/12/16/1280600ha29b.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2021/12/16/1280600ha29b.jpg"
+                    }
+                ],
+                "verticalPhotos": [
+                    {
+                        "id": 2081303,
+                        "ord": 0,
+                        "type": 1,
+                        "created": 1695041646,
+                        "version": 2,
+                        "format": "jpg",
+                        "captionEt": "Kajalood",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/09/18/2081303hadd6t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/09/18/2081303hce39t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/09/18/2081303h08bct34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/09/18/2081303h5a61.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/09/18/2081303h5a61.jpg"
+                    }
+                ],
+                "horizontalPoster": [
+                    {
+                        "id": 1280600,
+                        "ord": 0,
+                        "type": 2,
+                        "created": 1639661141,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Kaja K\u00e4rner",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "ERR/ Ken M\u00fcrk",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600hd898t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600h4beat26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2021/12/16/1280600h86e4t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2021/12/16/1280600ha29b.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2021/12/16/1280600ha29b.jpg"
+                    }
+                ],
+                "heroImage": [
+                    {
+                        "id": 1913447,
+                        "ord": 0,
+                        "type": 3,
+                        "created": 1684141648,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Kaja K\u00e4rner",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "ERR/ Ken M\u00fcrk",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/05/15/1913447h8b30t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/05/15/1913447ha8f9t26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/05/15/1913447h0432t34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/05/15/1913447hba03.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/05/15/1913447hba03.jpg"
+                    }
+                ],
+                "squarePhotos": [
+                    {
+                        "id": 2149069,
+                        "ord": 0,
+                        "type": 4,
+                        "created": 1699891513,
+                        "version": 0,
+                        "format": "jpg",
+                        "captionEt": "Kajalood",
+                        "captionEn": "",
+                        "captionRu": "",
+                        "authorEt": "",
+                        "authorEn": "",
+                        "authorRu": "",
+                        "photoTypes": {
+                            "17": {
+                                "type": 17,
+                                "w": 600,
+                                "h": 338,
+                                "url": "https://s.err.ee/photo/crop/2023/11/13/2149069h6f19t17.jpg"
+                            },
+                            "26": {
+                                "type": 26,
+                                "w": 400,
+                                "h": 225,
+                                "url": "https://s.err.ee/photo/crop/2023/11/13/2149069h32cct26.jpg"
+                            },
+                            "34": {
+                                "type": 34,
+                                "w": 324,
+                                "h": 182,
+                                "url": "https://s.err.ee/photo/crop/2023/11/13/2149069h770et34.jpg"
+                            }
+                        },
+                        "photoUrlOriginal": "https://s.err.ee/photo/orig/2023/11/13/2149069h25ac.jpg",
+                        "photoUrlBase": "https://s.err.ee/photo/crop/2023/11/13/2149069h25ac.jpg"
+                    }
+                ]
+            }
+        ],
+        "totalFound": 4,
+        "type": "Audio"
+    }
+}

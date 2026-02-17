@@ -1,0 +1,1044 @@
+{
+    "apiVersion": "2.0",
+    "data": {
+        "mainContent": {
+            "id": 1609647506,
+            "updated": 1743672000,
+            "scheduleStart": 1771185600,
+            "heading": "Kahtluste v\u00f5rk",
+            "subHeading": "",
+            "lead": "<p>Noore naistudengi kadumise j\u00e4rel on peamiseks kahtlusaluseks lugupeetud filosoofiaprofessor Evan Birch, kelle minevikku varjutavad mitmed h\u00e4marad saladused, ehkki \u00fcli\u00f5pilaste seas on ta populaarne.</p>",
+            "body": "<p>Politseiuurija Malloy tuhnib j\u00e4releandmatult mehe minevikus ja isegi tema naine kahtleb oma mehe alibis. Kuid pole sugugi lihtne j\u00e4lile j\u00f5uda, kas juhtl\u00f5ngad on ekslikud v\u00f5i on karismaatilisel \u00f5ppej\u00f5ul ootamatult s\u00fcnge iseloom.</p>\n<p>Re\u017eiss\u00f6\u00f6r Simon Kaijser.</p>",
+            "primaryCategoryId": 4432,
+            "iframeMediaUrl": "",
+            "parentContentId": 0,
+            "parentContentPath": "[]",
+            "seriesType": 0,
+            "type": "movie",
+            "txReqId": 1,
+            "color": "#000000",
+            "season": 0,
+            "episode": 0,
+            "country": "USA, Iirimaa, Rootsi",
+            "originalTitle": "Spinning Man",
+            "year": "2018",
+            "contentOrder": 0,
+            "editor": "",
+            "url": "https://jupiter.err.ee/1609647506/kahtluste-vork",
+            "radiomanId": 0,
+            "lastChangedBy": 76492,
+            "commenting": 2,
+            "progId": 11127927542,
+            "photos": [
+                {
+                    "id": 2816234,
+                    "ord": 0,
+                    "type": 2,
+                    "created": 1744055257,
+                    "version": 0,
+                    "format": "jpg",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h4695t1.jpg"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h86d4t2.jpg"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h99f6t6.jpg"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h9946t8.jpg"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h46ebt11.jpg"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h9672t15.jpg"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hfec5t16.jpg"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h862ft22.jpg"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h26abt24.jpg"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf14ft26.jpg"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h37e3t37.jpg"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf242t44.jpg"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h005dt46.jpg"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h42a7t47.jpg"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hfb44t48.jpg"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h22cdt49.jpg"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hd986t52.jpg"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h34d0t60.jpg"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hb971t61.jpg"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h15dct62.jpg"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h15e8t64.jpg"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h1a26t65.jpg"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf922t66.jpg"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h1e09t67.jpg"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf8e7t68.jpg"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h1d86t69.jpg"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h672dt70.jpg"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h6a58t71.jpg"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h5ea5t72.jpg"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h38bft80.jpg"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/04/07/2816234hf85e.jpg",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2025/04/07/2816234hf85e.jpg"
+                }
+            ],
+            "horizontalPhotos": [],
+            "verticalPhotos": [
+                {
+                    "id": 2815697,
+                    "ord": 0,
+                    "type": 1,
+                    "created": 1744025210,
+                    "version": 0,
+                    "format": "jpg",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h7848t1.jpg"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hfcfet2.jpg"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h23bct6.jpg"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hca7bt8.jpg"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h2368t11.jpg"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h1c73t15.jpg"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697he21at16.jpg"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h43d8t22.jpg"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h66b9t24.jpg"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h78b3t26.jpg"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h8397t37.jpg"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hd27bt44.jpg"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697heda6t46.jpg"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h2e24t47.jpg"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697he45ct48.jpg"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h58f5t49.jpg"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h4f00t52.jpg"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hd08bt60.jpg"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h4f6bt61.jpg"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hd161t62.jpg"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hc1cdt64.jpg"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hd302t65.jpg"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697he424t66.jpg"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h2997t67.jpg"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hd5d7t68.jpg"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h94d8t69.jpg"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hc76dt70.jpg"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697hf704t71.jpg"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h7fdbt72.jpg"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2815697h5396t80.jpg"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/04/07/2815697h49a9.jpg",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2025/04/07/2815697h49a9.jpg"
+                }
+            ],
+            "horizontalPoster": [
+                {
+                    "id": 2816234,
+                    "ord": 0,
+                    "type": 2,
+                    "created": 1744055257,
+                    "version": 0,
+                    "format": "jpg",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h4695t1.jpg"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h86d4t2.jpg"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h99f6t6.jpg"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h9946t8.jpg"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h46ebt11.jpg"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h9672t15.jpg"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hfec5t16.jpg"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h862ft22.jpg"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h26abt24.jpg"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf14ft26.jpg"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h37e3t37.jpg"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf242t44.jpg"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h005dt46.jpg"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h42a7t47.jpg"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hfb44t48.jpg"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h22cdt49.jpg"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hd986t52.jpg"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h34d0t60.jpg"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hb971t61.jpg"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h15dct62.jpg"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h15e8t64.jpg"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h1a26t65.jpg"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf922t66.jpg"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h1e09t67.jpg"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234hf8e7t68.jpg"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h1d86t69.jpg"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h672dt70.jpg"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h6a58t71.jpg"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h5ea5t72.jpg"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816234h38bft80.jpg"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/04/07/2816234hf85e.jpg",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2025/04/07/2816234hf85e.jpg"
+                }
+            ],
+            "heroImage": [
+                {
+                    "id": 2816231,
+                    "ord": 0,
+                    "type": 3,
+                    "created": 1744055179,
+                    "version": 1,
+                    "format": "jpg",
+                    "photoTypes": {
+                        "1": {
+                            "type": 1,
+                            "w": 120,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231heb3et1.jpg"
+                        },
+                        "2": {
+                            "type": 2,
+                            "w": 1920,
+                            "h": 1080,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h1a2ct2.jpg"
+                        },
+                        "6": {
+                            "type": 6,
+                            "w": 800,
+                            "h": 500,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231ha665t6.jpg"
+                        },
+                        "8": {
+                            "type": 8,
+                            "w": 400,
+                            "h": 250,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hbd61t8.jpg"
+                        },
+                        "11": {
+                            "type": 11,
+                            "w": 96,
+                            "h": 60,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h9ffat11.jpg"
+                        },
+                        "15": {
+                            "type": 15,
+                            "w": 800,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hfa02t15.jpg"
+                        },
+                        "16": {
+                            "type": 16,
+                            "w": 1000,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h5736t16.jpg"
+                        },
+                        "22": {
+                            "type": 22,
+                            "w": 312,
+                            "h": 195,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h3adat22.jpg"
+                        },
+                        "24": {
+                            "type": 24,
+                            "w": 672,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hf460t24.jpg"
+                        },
+                        "26": {
+                            "type": 26,
+                            "w": 400,
+                            "h": 225,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hcccct26.jpg"
+                        },
+                        "37": {
+                            "type": 37,
+                            "w": 1440,
+                            "h": 0,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h05eet37.jpg"
+                        },
+                        "44": {
+                            "type": 44,
+                            "w": 200,
+                            "h": 200,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h2c37t44.jpg"
+                        },
+                        "46": {
+                            "type": 46,
+                            "w": 1920,
+                            "h": 1920,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h1ac8t46.jpg"
+                        },
+                        "47": {
+                            "type": 47,
+                            "w": 1920,
+                            "h": 1440,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hc5f5t47.jpg"
+                        },
+                        "48": {
+                            "type": 48,
+                            "w": 1440,
+                            "h": 810,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hf5b9t48.jpg"
+                        },
+                        "49": {
+                            "type": 49,
+                            "w": 0,
+                            "h": 80,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h8b55t49.jpg"
+                        },
+                        "52": {
+                            "type": 52,
+                            "w": 32,
+                            "h": 16,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hce2at52.jpg"
+                        },
+                        "60": {
+                            "type": 60,
+                            "w": 180,
+                            "h": 270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hcb5dt60.jpg"
+                        },
+                        "61": {
+                            "type": 61,
+                            "w": 768,
+                            "h": 432,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hc768t61.jpg"
+                        },
+                        "62": {
+                            "type": 62,
+                            "w": 1648,
+                            "h": 1030,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hbf2at62.jpg"
+                        },
+                        "64": {
+                            "type": 64,
+                            "w": 824,
+                            "h": 515,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231he01et64.jpg"
+                        },
+                        "65": {
+                            "type": 65,
+                            "w": 592,
+                            "h": 370,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hd370t65.jpg"
+                        },
+                        "66": {
+                            "type": 66,
+                            "w": 296,
+                            "h": 185,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hda1at66.jpg"
+                        },
+                        "67": {
+                            "type": 67,
+                            "w": 168,
+                            "h": 168,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hcf9bt67.jpg"
+                        },
+                        "68": {
+                            "type": 68,
+                            "w": 84,
+                            "h": 84,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hcde7t68.jpg"
+                        },
+                        "69": {
+                            "type": 69,
+                            "w": 1568,
+                            "h": 980,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231he3e3t69.jpg"
+                        },
+                        "70": {
+                            "type": 70,
+                            "w": 784,
+                            "h": 490,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h0d53t70.jpg"
+                        },
+                        "71": {
+                            "type": 71,
+                            "w": 2032,
+                            "h": 1270,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h4525t71.jpg"
+                        },
+                        "72": {
+                            "type": 72,
+                            "w": 1016,
+                            "h": 635,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231h48e9t72.jpg"
+                        },
+                        "80": {
+                            "type": 80,
+                            "w": 400,
+                            "h": 600,
+                            "url": "https://s.err.ee/photo/crop/2025/04/07/2816231hfcd5t80.jpg"
+                        }
+                    },
+                    "photoUrlOriginal": "https://s.err.ee/photo/orig/2025/04/07/2816231h6a9e.jpg",
+                    "photoUrlBase": "https://s.err.ee/photo/crop/2025/04/07/2816231h6a9e.jpg"
+                }
+            ],
+            "squarePhotos": [],
+            "rootContentId": 0,
+            "statsHeading": "Kahtluste v\u00f5rk",
+            "statsSeriesTitle": "",
+            "rootCategoryId": 3905,
+            "canonicalUrl": "https://jupiter.err.ee/1609647506",
+            "fancyUrl": "kahtluste-vork",
+            "anotherDomainContent": true,
+            "created": 1743165000,
+            "publicStart": 1743165000,
+            "formatedTimes": {
+                "created": "28.03.2025 14:30",
+                "updated": "03.04.2025 12:20",
+                "publicStart": "28.03.2025 14:30",
+                "dayShortName": "P",
+                "scheduleStart": "15.02 22:00",
+                "shortScheduleStart": "15.02",
+                "programStart": "15.02"
+            },
+            "clips": [],
+            "vodSiteContent": "video",
+            "vodSiteDomain": "jupiter.err.ee",
+            "vodSiteUrl": "https://jupiter.err.ee/1609647506/kahtluste-vork",
+            "relatedRadiomanIds": [],
+            "medias": [
+                {
+                    "id": 2292707,
+                    "ord": 0,
+                    "type": "video",
+                    "headingEt": "Kahtluste v\u00f5rk",
+                    "headingRu": "",
+                    "headingEn": "",
+                    "podcastUrl": "",
+                    "bodyEt": "Noore naistudengi kadumise j\u00e4rel on peamiseks kahtlusaluseks lugupeetud filosoofiaprofessor Evan Birch (Guy Pearce), kelle minevikku varjutavad mitmed h\u00e4marad saladused, ehkki \u00fcli\u00f5pilaste seas on ta populaarne. Politseiuurija Malloy (Pierce Brosnan) tuhnib j\u00e4releandmatult mehe minevikus ja isegi tema naine kahtleb oma mehe alibis. Kuid pole sugugi lihtne j\u00e4lile j\u00f5uda, kas juhtl\u00f5ngad on ekslikud v\u00f5i on karismaatilisel \u00f5ppej\u00f5ul ootamatult s\u00fcnge iseloom.",
+                    "bodyEn": null,
+                    "bodyRu": "",
+                    "embedDisabled": 1,
+                    "publicEnd": 0,
+                    "mediaRadiomanId": 0,
+                    "photoId": 0,
+                    "ld": 0,
+                    "sd": 1,
+                    "hd": 1,
+                    "fhd": 1,
+                    "4k": 0,
+                    "folder": "gb",
+                    "mediaHash": "d6cf5ef09b997dab1ddb3709b29400b8",
+                    "skd": "",
+                    "jwt": "",
+                    "file": "2025-029023-0001_0001_XHD_SPINNING-MAN_ERR.mp4",
+                    "version": 2,
+                    "filename": "2025-029023-0001_0001_XHD_SPINNING-MAN_ERR_2.mp4",
+                    "licenseServerUrl": {
+                        "playReady": "https://drm-playready-licensing.axprod.net/AcquireLicense",
+                        "widevine": "https://drm-widevine-licensing.axprod.net/AcquireLicense",
+                        "fairPlay": "https://drm-fairplay-licensing.axprod.net/AcquireLicense"
+                    },
+                    "cacheIndex": 0,
+                    "versionId": 11135522922,
+                    "isPg": true,
+                    "mediaInfo": {
+                        "aspectRatio": "16:9",
+                        "duration": "5789"
+                    },
+                    "src": {
+                        "id": 2292707,
+                        "ratio": "16:9",
+                        "hls2": "//vod.err.ee/hls/gb/d6cf5ef09b997dab1ddb3709b29400b8/3/v/PGEST/master.m3u8",
+                        "hls": "//vod.err.ee/hls/gb/d6cf5ef09b997dab1ddb3709b29400b8/3/v/PGEST/master.m3u8",
+                        "file": "//vod.err.ee/file/gb/d6cf5ef09b997dab1ddb3709b29400b8.mp4",
+                        "hlsNew": "//vod.err.ee/hls/gb/d6cf5ef09b997dab1ddb3709b29400b8/3/v/PGEST/master.m3u8",
+                        "dashNew": "//vod.err.ee/dash/gb/d6cf5ef09b997dab1ddb3709b29400b8/3/v/PGEST/manifest.mpd",
+                        "dash": "//vod.err.ee/dash/gb/d6cf5ef09b997dab1ddb3709b29400b8/3/v/PGEST/manifest.mpd",
+                        "hlsNoSub": "//vod.err.ee/hls/gb/d6cf5ef09b997dab1ddb3709b29400b8/3/v/nosub/PGEST/master.m3u8",
+                        "dashNoSub": "//vod.err.ee/dash/gb/d6cf5ef09b997dab1ddb3709b29400b8/3/v/nosub/PGEST/manifest.mpd"
+                    },
+                    "mediaId": "d6cf5ef09b997dab1ddb3709b29400b8",
+                    "periods": [
+                        {
+                            "publicStart": 1744491755,
+                            "publicEnd": 1754859755,
+                            "vodReqId": 11158656878
+                        },
+                        {
+                            "publicStart": 1744491857,
+                            "publicEnd": 1754859857,
+                            "vodReqId": 11158224492
+                        },
+                        {
+                            "publicStart": 1771191530,
+                            "publicEnd": 1781555930,
+                            "vodReqId": 11308804848
+                        },
+                        {
+                            "publicStart": 1771191860,
+                            "publicEnd": 1781556260,
+                            "vodReqId": 11309096565
+                        }
+                    ],
+                    "catchupDays": 119,
+                    "restrictions": {
+                        "drm": false,
+                        "geoBlock": true
+                    },
+                    "subtitles": [
+                        {
+                            "id": 0,
+                            "subId": 352664,
+                            "name": "eesti",
+                            "srclang": "ET",
+                            "version": 1,
+                            "exported": 1,
+                            "src": "https://services.err.ee/subtitles/file/352664/352664_ET.vtt",
+                            "filename": "352664_ET.vtt"
+                        }
+                    ],
+                    "photos": []
+                }
+            ],
+            "galleries": [],
+            "polls": [],
+            "druidStats": {
+                "content": {
+                    "contentId": 1609647506,
+                    "rootContentId": 0,
+                    "progId": 11127927542,
+                    "contentType": "movie",
+                    "heading": "Kahtluste v\u00f5rk",
+                    "seriesHeading": "",
+                    "statsHeading": "Kahtluste v\u00f5rk",
+                    "country": "USA, Iirimaa, Rootsi",
+                    "year": "2018"
+                },
+                "tx": [],
+                "media": {
+                    "mediaId": 2292707,
+                    "mediaType": "video",
+                    "mediaFile": "2025-029023-0001_0001_XHD_SPINNING-MAN_ERR.mp4",
+                    "mediaFolder": "gb"
+                }
+            },
+            "makers": [],
+            "bodyMedias": [],
+            "bodyTrustedHtmls": [],
+            "bodyPhotos": [],
+            "bodyGalleries": []
+        },
+        "seasonList": [],
+        "nextContent": [],
+        "futureContent": [],
+        "pageType": "movie",
+        "category": [
+            {
+                "id": 4432,
+                "name": "P\u00f5nevus/seiklus",
+                "lead": "",
+                "parentId": 4137,
+                "passive": 0,
+                "lft": 2866,
+                "rgt": 2867,
+                "url": "ponevus",
+                "commenting": 2,
+                "musicStyle": 1,
+                "depth": 3,
+                "isPodcast": 0,
+                "radiomanId": "",
+                "idec": "000000",
+                "allowContentPhoto": 1,
+                "contentVisible": 0,
+                "type": 1,
+                "eMail": "",
+                "color": "#000000",
+                "newsSiteUrl": "",
+                "postToSocialmedia": 0,
+                "disableScanpix": 0,
+                "rootCategoryId": 3905,
+                "relativePath": "Jupiter > Video > Filmid > P\u00f5nevus/seiklus",
+                "domain": "jupiter.err.ee",
+                "domainType": "vod",
+                "springId": null,
+                "analyticsId": "UA-21111330-48",
+                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                "photoId": "2350764",
+                "coverPhotoId": null,
+                "coverPhotoUrl": null,
+                "fullCoverPhoto": null,
+                "backgroundPhotoId": null,
+                "lang": "1",
+                "host": null,
+                "slogan": null,
+                "typologyPath": "jupiter/video/filmid/ponevus-seiklus"
+            },
+            {
+                "id": 4401,
+                "name": "Hollywood",
+                "lead": "",
+                "parentId": 4137,
+                "passive": 0,
+                "lft": 2852,
+                "rgt": 2853,
+                "url": "hollywood",
+                "commenting": 2,
+                "musicStyle": 1,
+                "depth": 3,
+                "isPodcast": 0,
+                "radiomanId": "",
+                "idec": "000000",
+                "allowContentPhoto": 1,
+                "contentVisible": 0,
+                "type": 4,
+                "eMail": "",
+                "color": "#000000",
+                "newsSiteUrl": "",
+                "postToSocialmedia": 0,
+                "disableScanpix": 0,
+                "rootCategoryId": 3905,
+                "relativePath": "Jupiter > Video > Filmid > Hollywood",
+                "domain": "jupiter.err.ee",
+                "domainType": "vod",
+                "springId": null,
+                "analyticsId": "UA-21111330-48",
+                "gemiusId": ".A5Kf7vXj9LhxLlNQG7yzLdMj1M8wwOK7WetMxuDSTH.y7",
+                "photoId": "2350764",
+                "coverPhotoId": null,
+                "coverPhotoUrl": null,
+                "fullCoverPhoto": null,
+                "backgroundPhotoId": null,
+                "lang": "1",
+                "host": null,
+                "slogan": null,
+                "typologyPath": "jupiter/video/filmid/hollywood"
+            }
+        ],
+        "categoryContents": []
+    }
+}

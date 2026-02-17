@@ -1,0 +1,14 @@
+# Testing dependencies for Jupiter Kodi Plugin
+
+# Testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0              # Coverage plugin
+pytest-mock>=3.11.1            # Mocking utilities
+pytest-timeout>=2.1.0          # Timeout for hanging tests
+pytest-xdist>=3.3.1            # Parallel test execution
+
+# HTTP mocking
+responses>=0.23.1              # Mock requests library calls
+
+# Dependencies from main addon
+requests>=2.22.0               # Already required by addon
