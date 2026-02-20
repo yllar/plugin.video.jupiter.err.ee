@@ -171,14 +171,6 @@ def clear_search_history():
     title = ADDON.getLocalizedString(30016)  # "Clear Search History"
     message = ADDON.getLocalizedString(30017)  # "Are you sure you want to clear all search history?"
     
-    # Debug: log if strings are empty
-    if not title:
-        title = "Clear Search History"
-        xbmc.log("ERR Addon: String 30016 not found, using fallback", xbmc.LOGWARNING)
-    if not message:
-        message = "Are you sure you want to clear all search history?"
-        xbmc.log("ERR Addon: String 30017 not found, using fallback", xbmc.LOGWARNING)
-    
     # Show confirmation dialog
     confirmed = dialog.yesno(title, message)
     

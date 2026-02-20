@@ -36,29 +36,8 @@ class SearchHistory:
             if os.path.exists(self.history_file):
                 with open(self.history_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    # Handle both old format (list) and new format (dict with version)
                     if isinstance(data, dict) and 'entries' in data:
                         self.history = data['entries']
-                    elif isinstance(data, list):
-                        # Migrate old format - convert strings to dict format
-                        migrated_history = []
-                        current_time = int(time.time())
-                        for i, item in enumerate(data):
-                            if isinstance(item, str):
-                                # Old format: just a string
-                                migrated_history.append({
-                                    'query': item,
-                                    'timestamp': current_time - (len(data) - i),  # Preserve order
-                                    'query_lower': item.lower()
-                                })
-                            elif isinstance(item, dict):
-                                # Already in new format
-                                if 'query_lower' not in item:
-                                    item['query_lower'] = item['query'].lower()
-                                migrated_history.append(item)
-                        self.history = migrated_history
-                        # Save migrated format
-                        self._save_history()
                     else:
                         self.history = []
             else:
