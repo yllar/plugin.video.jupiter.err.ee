@@ -20,6 +20,7 @@ import resources.lib.errlib.helpers as helpers
 from resources.lib.errlib.category import Category
 from resources.lib.errlib.content import Content
 from resources.lib.errlib.search import Search
+from resources.lib.errlib.search_history import SearchHistory
 
 from resources.lib.errlib.constants import (
     ERR_API_BASEURL,
@@ -52,7 +53,7 @@ def list_category():
 
     item = xbmcgui.ListItem(ADDON.getLocalizedString(30012))
     item.setArt({'fanart': search_icon, 'poster': search_icon, 'icon': search_icon})
-    items.append((PATH + '?action=search', item, True))
+    items.append((PATH + '?action=search_menu', item, True))
 
     for menuitem in menuitems:
         if menuitem['kids_count'] > 0:
@@ -76,6 +77,49 @@ def list_category():
     xbmcplugin.endOfDirectory(_handle)
 
 
+def search_menu():
+    """Display search menu with history entries and new search option"""
+    items = list()
+    search_history = SearchHistory()
+    history = search_history.get_history()
+    
+    # Add "New Search" option at the top
+    search_icon = os.path.join(ADDON.getAddonInfo('path'), 'resources', 'search.png')
+    item = xbmcgui.ListItem(ADDON.getLocalizedString(30019))  # "New Search"
+    item.setArt({'fanart': search_icon, 'poster': search_icon, 'icon': search_icon})
+    items.append((PATH + '?action=search', item, True))
+    
+    # Add history entries
+    for entry in history:
+        query = entry['query']
+        item = xbmcgui.ListItem(query)
+        item.setArt({'fanart': FANART})
+        
+        # Add context menu for deleting individual entry
+        try:
+            from urllib.parse import quote_plus
+        except ImportError:
+            from urllib import quote_plus
+        
+        context_menu = [
+            (ADDON.getLocalizedString(30015),  # "Delete from history"
+             'RunPlugin({0}?action=delete_history&query={1})'.format(PATH, quote_plus(query.encode('utf-8'))))
+        ]
+        item.addContextMenuItems(context_menu)
+        
+        items.append((PATH + '?action=search&query={}'.format(quote_plus(query.encode('utf-8'))), item, True))
+    
+    # Add "Clear History" option at the bottom (only if history exists)
+    if history:
+        clear_text = ADDON.getLocalizedString(30020) or "Clear History"
+        item = xbmcgui.ListItem('[COLOR red]{}[/COLOR]'.format(clear_text))
+        item.setArt({'fanart': FANART})
+        items.append((PATH + '?action=clear_history', item, True))
+    
+    xbmcplugin.addDirectoryItems(_handle, items)
+    xbmcplugin.endOfDirectory(_handle)
+
+
 def get_search_string():
     kb = xbmc.Keyboard('', ADDON.getLocalizedString(30013))
     kb.doModal()
@@ -85,8 +129,21 @@ def get_search_string():
     return query
 
 
-def do_search():
-    search = Search(search_phrase=get_search_string())
+def do_search(query=None):
+    # Get query from user input if not provided
+    if query is None:
+        query = get_search_string()
+    
+    # If user cancelled the search dialog, return early
+    if not query:
+        return
+    
+    # Add query to search history
+    search_history = SearchHistory()
+    search_history.add_entry(query)
+    
+    # Execute search with the query
+    search = Search(search_phrase=query)
     items = list()
     available_types = ["video", "audio"]
     for index, content_type in enumerate(available_types):
@@ -104,6 +161,55 @@ def do_search():
 
     xbmcplugin.addDirectoryItems(_handle, items)
     xbmcplugin.endOfDirectory(_handle)
+
+
+def clear_search_history():
+    """Clear all search history with user confirmation"""
+    dialog = xbmcgui.Dialog()
+    
+    # Get localized strings
+    title = ADDON.getLocalizedString(30016)  # "Clear Search History"
+    message = ADDON.getLocalizedString(30017)  # "Are you sure you want to clear all search history?"
+    
+    # Debug: log if strings are empty
+    if not title:
+        title = "Clear Search History"
+        xbmc.log("ERR Addon: String 30016 not found, using fallback", xbmc.LOGWARNING)
+    if not message:
+        message = "Are you sure you want to clear all search history?"
+        xbmc.log("ERR Addon: String 30017 not found, using fallback", xbmc.LOGWARNING)
+    
+    # Show confirmation dialog
+    confirmed = dialog.yesno(title, message)
+    
+    if confirmed:
+        # Clear the history
+        search_history = SearchHistory()
+        search_history.clear()
+        
+        # Get notification strings
+        notif_title = ADDON.getLocalizedString(30016) or "Clear Search History"
+        notif_message = ADDON.getLocalizedString(30018) or "Search history cleared"
+        
+        # Show success notification
+        dialog.notification(
+            notif_title,
+            notif_message,
+            xbmcgui.NOTIFICATION_INFO,
+            3000
+        )
+    
+    # Refresh the container to update the menu
+    xbmc.executebuiltin('Container.Refresh')
+
+
+def delete_history_entry(query):
+    """Delete a specific search history entry"""
+    search_history = SearchHistory()
+    search_history.remove_entry(query)
+    
+    # Refresh the container to update the menu
+    xbmc.executebuiltin('Container.Refresh')
 
 
 def get_category(categorykey):
@@ -287,7 +393,29 @@ def router(paramstring):
         elif params['action'] == 'listing':
             get_all_shows(params['category'])
         elif params['action'] == 'search':
-            do_search()
+            # Handle optional query parameter
+            query = params.get('query', None)
+            if query:
+                try:
+                    from urllib.parse import unquote_plus
+                except ImportError:
+                    from urllib import unquote_plus
+                query = unquote_plus(query)
+            do_search(query)
+        elif params['action'] == 'search_menu':
+            search_menu()
+        elif params['action'] == 'clear_history':
+            clear_search_history()
+        elif params['action'] == 'delete_history':
+            # Decode the query parameter
+            query = params.get('query', '')
+            if query:
+                try:
+                    from urllib.parse import unquote_plus
+                except ImportError:
+                    from urllib import unquote_plus
+                query = unquote_plus(query)
+            delete_history_entry(query)
         else:
             raise ValueError('Invalid paramstring: {0}!'.format(paramstring))
     else:
