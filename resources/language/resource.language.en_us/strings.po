@@ -76,6 +76,34 @@ msgctxt "#30014"
 msgid "matches"
 msgstr "matches"
 
+msgctxt "#30015"
+msgid "Delete from history"
+msgstr "Delete from history"
+
+msgctxt "#30016"
+msgid "Clear Search History"
+msgstr "Clear Search History"
+
+msgctxt "#30017"
+msgid "Are you sure you want to clear all search history?"
+msgstr "Are you sure you want to clear all search history?"
+
+msgctxt "#30018"
+msgid "Search history cleared"
+msgstr "Search history cleared"
+
+msgctxt "#30019"
+msgid "New Search"
+msgstr "New Search"
+
+msgctxt "#30020"
+msgid "Clear History"
+msgstr "Clear History"
+
+msgctxt "#30021"
+msgid "Search History"
+msgstr "Search History"
+
 msgctxt "#30030"
 msgid "[COLOR white]White[/COLOR]"
 msgstr "[COLOR white]White[/COLOR]"

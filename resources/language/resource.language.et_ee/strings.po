@@ -81,6 +81,34 @@ msgctxt "#30014"
 msgid "matches"
 msgstr "vasteid"
 
+msgctxt "#30015"
+msgid "Delete from history"
+msgstr "Kustuta ajaloost"
+
+msgctxt "#30016"
+msgid "Clear Search History"
+msgstr "Tühjenda otsinguajalugu"
+
+msgctxt "#30017"
+msgid "Are you sure you want to clear all search history?"
+msgstr "Kas oled kindel, et soovid kogu otsinguajaloo kustutada?"
+
+msgctxt "#30018"
+msgid "Search history cleared"
+msgstr "Otsinguajalugu tühjendatud"
+
+msgctxt "#30019"
+msgid "New Search"
+msgstr "Uus otsing"
+
+msgctxt "#30020"
+msgid "Clear History"
+msgstr "Tühjenda ajalugu"
+
+msgctxt "#30021"
+msgid "Search History"
+msgstr "Otsinguajalugu"
+
 msgctxt "#30030"
 msgid "[COLOR white]White[/COLOR]"
 msgstr "[COLOR white]Valge[/COLOR]"
